@@ -27,10 +27,14 @@ export function saveApplication(input: unknown) {
   if (!job) throw new Error("La oferta no existe.");
   const existing = db.select().from(applications).where(eq(applications.jobId, parsed.jobId)).get();
   const now = nowIso();
+  const appliedAt = parsed.stage === "applied" && parsed.appliedAt === undefined
+    ? existing?.appliedAt ?? now
+    : parsed.appliedAt;
+  const values = { ...parsed, ...(appliedAt !== undefined ? { appliedAt } : {}), updatedAt: now };
   if (existing) {
-    db.update(applications).set({ ...parsed, updatedAt: now }).where(eq(applications.id, existing.id)).run();
+    db.update(applications).set(values).where(eq(applications.id, existing.id)).run();
   } else {
-    db.insert(applications).values({ id: randomUUID(), ...parsed }).run();
+    db.insert(applications).values({ id: randomUUID(), ...values }).run();
   }
   if (parsed.stage === "applied" || parsed.stage === "interview" || parsed.stage === "offer") {
     db.update(jobs).set({ status: "applied", updatedAt: now }).where(eq(jobs.id, parsed.jobId)).run();

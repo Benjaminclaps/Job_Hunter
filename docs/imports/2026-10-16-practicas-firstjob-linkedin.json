@@ -1,0 +1,714 @@
+{
+  "searchedAt": "2026-10-16",
+  "sources": ["FirstJob", "LinkedIn public listings"],
+  "baseline": {
+    "pendingJobs": 16,
+    "pendingInternships": 10,
+    "note": "Counts read from the local SQLite-backed app before this import."
+  },
+  "targetPendingInternships": 50,
+  "importResult": {
+    "importedAsNew": 43,
+    "databaseTotalAfterImport": 467,
+    "unassessedNewJobsAfterImport": 59,
+    "unassessedNewInternshipsAfterImport": 53,
+    "evaluationsCreated": 0,
+    "applicationsSent": 0
+  },
+  "rules": [
+    "Only public listing pages were reviewed; no LinkedIn login session, CAPTCHA, or automated application was used.",
+    "Relative publication dates were not converted into invented timestamps; publishedAt is omitted.",
+    "Unpublished stipend, start date, and duration are called out in each description or requirement.",
+    "Any page that showed a closed process, a start before 2026-12-20, or a known stipend below CLP 300000 was excluded."
+  ],
+  "offers": [
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Puig",
+        "title": "Práctica Profesional Control de Gestión & Finanzas | Programa GO 2027",
+        "originalUrl": "https://api.firstjob.me/oferta/57407/practica-profesional-control-de-gestion-finanzas-programa-go-2027",
+        "description": "Proyecto de análisis de variaciones de margen entre Budget, Forecast y resultados reales, usando el enfoque Precio-Mix-Volumen. Incluye análisis de datos financieros, automatización de herramientas Excel/Power BI, dashboards y recomendaciones. Duración publicada: 6 meses; modalidad híbrida 3x2. Asignación: CLP 437.000 líquidos al mes para colación y movilización. Inicio exacto no publicado; confirmar que sea compatible con disponibilidad desde el 20-12-2026.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, Programa GO 2027",
+        "category": "Control de Gestión y Finanzas",
+        "requirements": ["Ingeniería en Información y Control de Gestión, Ingeniería Comercial o Ingeniería Civil Industrial.", "Disponibilidad de 6 meses.", "Excel intermedio/avanzado; Power BI es un plus."],
+        "responsibilities": ["Analizar variaciones de margen y sus principales factores.", "Construir reportes y herramientas de análisis.", "Presentar conclusiones y recomendaciones al equipo."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Puig",
+        "title": "Práctica Profesional Marketing 360° | Programa GO 2027",
+        "originalUrl": "https://api.firstjob.me/oferta/57414/practica-profesional-marketing-360-prestige-lifestyle-derma-programa-go-2027",
+        "description": "Práctica en divisiones Prestige, Lifestyle o Derma, con participación en estrategia de marca, campañas y lanzamientos, análisis de mercado, KPIs, retail y coordinación con ventas y otras áreas. Duración publicada: 6 meses; modalidad híbrida 3x2. Asignación: CLP 437.000 líquidos al mes para colación y movilización. Inicio exacto no publicado; confirmar disponibilidad desde el 20-12-2026.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, Programa GO 2027",
+        "category": "Marketing y Comercial",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil Industrial.", "Disponibilidad de 6 meses y seguro escolar vigente.", "Excel y PowerPoint intermedio; inglés para entorno global."],
+        "responsibilities": ["Apoyar estrategia de marcas, campañas y lanzamientos.", "Analizar mercado, ventas y KPIs.", "Coordinar iniciativas con equipos de Ventas, Retail, Supply Chain y partners."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Puig",
+        "title": "Práctica Profesional Área Comercial | Key Accounts & Business | Programa GO 2027",
+        "originalUrl": "https://api.firstjob.me/oferta/57418/practica-profesional-area-comercial-key-accounts-business-programa-go-2027",
+        "description": "Práctica del Programa GO en Key Accounts & Business: análisis y seguimiento de KPIs comerciales, apoyo a cuentas clave y proyectos de negocio/e-commerce. Duración publicada: 6 meses; modalidad híbrida 3x2. Asignación mensual publicada: CLP 437.000 líquidos para colación y movilización. Inicio exacto no publicado; confirmar que sea desde el 20-12-2026 o posterior.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, Programa GO 2027",
+        "category": "Key Accounts y Desarrollo Comercial",
+        "requirements": ["Ingeniería Comercial.", "Disponibilidad de 6 meses.", "Confirmar en la ficha los requisitos específicos de Excel, inglés y seguro escolar."],
+        "responsibilities": ["Apoyar el seguimiento de cuentas y KPIs comerciales.", "Colaborar en proyectos de e-commerce y negocio.", "Preparar análisis para decisiones comerciales."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Metro de Santiago",
+        "title": "Práctica Profesional Marketing y Contenidos",
+        "originalUrl": "https://api.firstjob.me/oferta/57487/practica-profesional-publicidad-o-ingenieria-comercial-subgerencia-marketing-y-contenidos",
+        "description": "Apoyo en planificación y seguimiento de campañas, activaciones y eventos; briefs, presupuestos, agencias, proveedores y análisis de resultados. La ficha pide práctica final de al menos 360 horas desde enero; modalidad híbrida. Incluye asignación económica, almuerzo y pase libre, pero no publica monto.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional final, mínimo 360 horas",
+        "category": "Marketing y Contenidos",
+        "requirements": ["Publicidad o Ingeniería Comercial de carrera profesional de 10 semestres o más.", "Seguro escolar vigente.", "Disponibilidad desde enero para práctica final de más de 360 horas."],
+        "responsibilities": ["Apoyar campañas, activaciones y eventos.", "Coordinar agencias y proveedores.", "Ordenar y analizar resultados de marketing."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Metro de Santiago",
+        "title": "Práctica Profesional Gerencia de Operaciones y Servicios",
+        "originalUrl": "https://api.firstjob.me/oferta/57477/practica-profesional-ingenieria-comercial-civil-industrial-informatico-matematico-o-estadistico-gerencia-operaciones-y-servicios",
+        "description": "Práctica en Operaciones y Servicios con foco en automatización, análisis de procesos e información para apoyar decisiones. La ficha indica mínimo 360 horas y disponibilidad desde enero; modalidad híbrida. Asignación económica, almuerzo y pase libre, sin monto publicado.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional final, mínimo 360 horas",
+        "category": "Operaciones y Mejora de Procesos",
+        "requirements": ["Ingeniería Comercial, Civil Industrial, Informática, Matemática o Estadística.", "Seguro escolar vigente.", "Disponibilidad desde enero y práctica final de al menos 360 horas."],
+        "responsibilities": ["Apoyar automatización de procesos y análisis operativo.", "Organizar información e indicadores.", "Contribuir a mejoras para la toma de decisiones."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob indexada el 2026-10-16; la página directa tuvo caché intermitente. Confirmar que acepte postulaciones antes de postular.",
+      "job": {
+        "companyName": "Metro de Santiago",
+        "title": "Práctica Profesional Planificación Corporativa y Control de Gestión",
+        "originalUrl": "https://api.firstjob.me/oferta/57492/practica-profesional-ingenieria-comercial-ingenieria-civil-industrial-subgerencia-planificacion-corporativa-y-control-de-gestion",
+        "description": "Práctica en planificación corporativa y control de gestión con recopilación de información para auditorías, carga de cumplimiento de metas y automatización de procesos. La ficha indica desde enero, mínimo 360 horas y modalidad híbrida. Asignación económica, almuerzo y pase libre; monto no publicado.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional final, mínimo 360 horas",
+        "category": "Planificación y Control de Gestión",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil Industrial de 10 semestres o más.", "Seguro escolar vigente.", "Disponibilidad desde enero y práctica final sobre 360 horas."],
+        "responsibilities": ["Recopilar información para auditorías.", "Apoyar el seguimiento de metas.", "Contribuir a automatizaciones y procesos de control."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob indexada el 2026-10-16; la página directa tuvo caché intermitente. Confirmar que acepte postulaciones antes de postular.",
+      "job": {
+        "companyName": "Metro de Santiago",
+        "title": "Práctica Profesional Marketing de Grandes Cuentas",
+        "originalUrl": "https://api.firstjob.me/oferta/57518/postulantes-para-practica-profesional-ingenieria-comercial-marketing-area-grandes-cuentas",
+        "description": "Práctica en Marketing y Grandes Cuentas con tareas de contenido de marca, redes sociales, medios comercializables y modelos de negocio. La ficha indica enero y 360 horas; modalidad presencial. Asignación económica mencionada, sin monto publicado; confirmar duración y fecha exacta de inicio.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional, 360 horas",
+        "category": "Marketing y Grandes Cuentas",
+        "requirements": ["Ingeniería Comercial o Marketing.", "Seguro escolar y disponibilidad desde enero.", "Confirmar duración exacta y requisitos específicos en la ficha."],
+        "responsibilities": ["Apoyar contenidos para marcas y redes sociales.", "Colaborar con iniciativas de marketing de grandes cuentas.", "Analizar oportunidades de monetización y modelos de negocio."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "MetLife Chile",
+        "title": "Programa de Prácticas MetLife 2027",
+        "originalUrl": "https://api.firstjob.me/oferta/57158/programa-de-practicas-metlife-2027",
+        "description": "Programa de prácticas en Santiago, híbrido y full-time por 6 meses desde enero de 2027. Áreas incluyen Comercial, Marketing, Experiencia de Clientes, Datos/BI y Transformación Digital. La ficha menciona salario competitivo sin monto.",
+        "location": "Santiago de Chile, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional full-time, 6 meses",
+        "category": "Comercial, Marketing, CX y Datos",
+        "requirements": ["Ser estudiante universitario y contar con seguro escolar.", "Excel e inglés intermedio.", "Disponibilidad full-time por 6 meses desde enero de 2027."],
+        "responsibilities": ["Participar en proyectos de un área asignada.", "Colaborar con equipos multidisciplinarios.", "Desarrollar experiencia en procesos comerciales, marketing, CX o datos según el cupo."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Blue Express",
+        "title": "Programa de Prácticas Profesionales Verano 2027",
+        "originalUrl": "https://api.firstjob.me/oferta/56971/programa-de-practicas-profesionales-verano-2027",
+        "description": "Programa de verano con opciones en áreas Comercial, Finanzas, Operaciones y Marketing. La ficha menciona inicio en enero y modalidad híbrida; no especifica en la información revisada la duración ni el monto de la asignación. Confirmar ambos y disponibilidad desde el 20-12-2026.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional de verano",
+        "category": "Comercial, Marketing, Operaciones y Finanzas",
+        "requirements": ["Estudiante que requiera práctica profesional.", "Confirmar carrera, duración y seguro escolar para el área elegida.", "Confirmar monto de asignación y fecha exacta de inicio."],
+        "responsibilities": ["Apoyar proyectos del área asignada.", "Contribuir a iniciativas de negocio y operación.", "Coordinar con equipos internos según el cupo."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Itaú Chile",
+        "title": "Programa de Prácticas Itaú 2027",
+        "originalUrl": "https://api.firstjob.me/oferta/57144/programa-de-practicas-itau-2027",
+        "description": "Programa híbrido en Las Condes, desde la última semana de diciembre de 2026 hasta fines de marzo de 2027. Áreas incluyen Banca Minorista, canales digitales, operaciones, Corporate, Finanzas, Marketing, Personas y Datos. Incluye bono de práctica y alimentación, sin montos publicados.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, Programa 2027",
+        "category": "Negocio, Comercial, Operaciones y Finanzas",
+        "requirements": ["Ingeniería Comercial u otra carrera afín a la gerencia elegida.", "Estudiante regular y seguro escolar vigente.", "Disponibilidad desde la última semana de diciembre de 2026 hasta fines de marzo de 2027."],
+        "responsibilities": ["Participar en proyectos de impacto del área elegida.", "Apoyar iniciativas comerciales, digitales, financieras o de operaciones.", "Preparar análisis y colaborar con equipos del banco."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "SAAM",
+        "title": "Programa Prácticas SAAM 2027",
+        "originalUrl": "https://api.firstjob.me/oferta/56034/programa-practicas-saam",
+        "description": "Programa híbrido con áreas de Desarrollo de Negocios, Finanzas, Control de Gestión, Abastecimiento, Operaciones y otras. Fecha de disponibilidad publicada: 4 de enero de 2027. El programa ofrece un proyecto propio y tutor; monto de asignación y duración no publicados.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, Programa 2027",
+        "category": "Desarrollo de Negocios y Operaciones",
+        "requirements": ["Estar en proceso de práctica profesional.", "Inglés intermedio-avanzado, B2 o superior.", "Disponibilidad desde el 4 de enero de 2027."],
+        "responsibilities": ["Liderar un proyecto de práctica con tutoría.", "Conocer áreas de negocio y operación.", "Apoyar un área según el cupo asignado."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "SAAM",
+        "title": "Práctica Ingeniería Comercial en Capacity Planning",
+        "originalUrl": "https://api.firstjob.me/oferta/57068/practica-ingenieria-civil-industrial-ingenieria-comercial-ingenieria-informatica-en-area-capacity",
+        "description": "Práctica presencial en el área de Capacity Planning, en el entorno aeroportuario/Aerosan. Enfoque en planificación de capacidad, KPIs, dashboards y productividad. Se menciona bono de práctica sin monto ni fecha de inicio publicados; confirmar duración y condiciones.",
+        "location": "Santiago, sector aeropuerto",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional",
+        "category": "Planificación y Operaciones",
+        "requirements": ["Ingeniería Comercial, Civil Industrial o Informática.", "Confirmar seguro escolar, fecha de inicio y duración en la ficha.", "Confirmar monto del bono de práctica."],
+        "responsibilities": ["Analizar capacidad y productividad.", "Apoyar indicadores y dashboards.", "Colaborar en mejoras de planificación operativa."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Banco BICE",
+        "title": "Práctica Profesional Desarrollo Corporativo e Innovación",
+        "originalUrl": "https://api.firstjob.me/oferta/57131/practica-profesional-desarrollo-corporativo-e-innovacion",
+        "description": "Práctica híbrida en Desarrollo Corporativo e Innovación, con exposición a capital de riesgo corporativo, fusiones/adquisiciones, alianzas y nuevos negocios. Duración publicada: 6 meses. Asignación remunerada mencionada sin monto; fecha de inicio no publicada.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, 6 meses",
+        "category": "Desarrollo Corporativo e Innovación",
+        "requirements": ["Ingeniería Comercial.", "Inglés profesional.", "Confirmar fecha de inicio, asignación y seguro escolar en la ficha."],
+        "responsibilities": ["Apoyar proyectos de nuevos negocios y alianzas.", "Participar en análisis corporativo y de innovación.", "Contribuir a iniciativas transversales del área."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob indexada el 2026-10-16; confirmar que acepte postulaciones y revisar condiciones en el enlace.",
+      "job": {
+        "companyName": "Banco BICE",
+        "title": "Practicante de Fidelización y Marketing",
+        "originalUrl": "https://api.firstjob.me/oferta/57416/practicante-de-fidelizacion-y-marketing",
+        "description": "Práctica en fidelización y marketing, con foco en alianzas, lealtad y valor para clientes. La ficha indexada menciona 6 meses y modalidad presencial; remuneración publicada sin monto. Confirmar fecha de inicio y requisitos específicos.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional, 6 meses",
+        "category": "Marketing y Fidelización",
+        "requirements": ["Carrera y requisitos académicos deben confirmarse en la ficha.", "Confirmar seguro escolar y fecha de inicio.", "El monto de la asignación no está publicado."],
+        "responsibilities": ["Apoyar iniciativas de fidelización.", "Colaborar en acciones de marketing y alianzas.", "Contribuir a mejorar la propuesta de valor para clientes."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob indexada recientemente; confirmar que acepte postulaciones y revisar requisitos completos en el enlace.",
+      "job": {
+        "companyName": "Huawei Chile",
+        "title": "Marketing Intern - Cloud Business",
+        "originalUrl": "https://api.firstjob.me/oferta/56787/marketing-intern-cloud-business",
+        "description": "Práctica de marketing B2B para Cloud, con apoyo a eventos, campañas y comunicación sobre servicios Cloud e IA. Modalidad presencial en Santiago, jornada reportada de 30 horas semanales flexibles. Se menciona bono mensual de práctica sin monto; fecha de inicio y duración no publicadas.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional, 30 horas semanales según ficha indexada",
+        "category": "Marketing B2B y Tecnología",
+        "requirements": ["Ingeniería Comercial u otra carrera afín; confirmar carrera elegible en la ficha.", "Inglés fluido reportado.", "Confirmar duración, fecha de inicio y bono mensual."],
+        "responsibilities": ["Apoyar campañas y eventos de Cloud.", "Colaborar con marketing B2B y comunicación de servicios.", "Apoyar acciones sobre soluciones de IA y Cloud."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob indexada la semana del 2026-10-16; confirmar vigencia, fecha de inicio y remuneración.",
+      "job": {
+        "companyName": "Aramark",
+        "title": "Práctica Comercial de Crecimiento Sostenible",
+        "originalUrl": "https://api.firstjob.me/oferta/57250/practica-comercial-de-crecimiento-sostenible-programa-de-practicas-impulsa-tu-talento",
+        "description": "Práctica comercial del programa Impulsa tu Talento, con análisis de mercado y clientes, KPIs y apoyo a campañas de consumidores. Duración mínima publicada: 6 meses; modalidad híbrida. Inicio y monto de asignación no publicados.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, mínimo 6 meses",
+        "category": "Comercial y Crecimiento",
+        "requirements": ["Ingeniería Comercial, Ingeniería Industrial o Marketing.", "Disponibilidad de al menos 6 meses.", "Confirmar fecha de inicio, seguro escolar y asignación."],
+        "responsibilities": ["Apoyar análisis de mercado y clientes.", "Seguir KPIs comerciales.", "Colaborar con campañas e iniciativas de crecimiento."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; confirmar vigencia antes de postular.",
+      "job": {
+        "companyName": "Belcorp Chile",
+        "title": "Práctica Profesional Área Comercial",
+        "originalUrl": "https://api.firstjob.me/oferta/56841/practica-profesional-area-comercial",
+        "description": "Práctica híbrida en el área Comercial, enfocada en análisis de datos, reportes de seguimiento y apoyo a decisiones. Duración mínima publicada: 6 meses. Remunerada sin monto publicado; fecha de inicio no publicada.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, mínimo 6 meses",
+        "category": "Comercial y Análisis de Negocio",
+        "requirements": ["Ingeniería Comercial, Ingeniería Civil o carrera afín.", "Excel e inglés intermedio-avanzado.", "Seguro escolar vigente y disponibilidad mínima de 6 meses."],
+        "responsibilities": ["Analizar datos comerciales.", "Preparar reportes de seguimiento.", "Apoyar decisiones y seguimiento de resultados."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; confirmar vigencia, inicio y monto del bono.",
+      "job": {
+        "companyName": "Santander Chile",
+        "title": "Práctica Profesional VPE Intervención y Control de Gestión",
+        "originalUrl": "https://api.firstjob.me/oferta/57024/practica-profesional-vicepresidencia-vpe-intervencion-y-control-de-gestion",
+        "description": "Práctica híbrida en intervención y control de gestión, con apoyo a proyectos, seguimiento de indicadores y control de avances. Se menciona bono de práctica sin monto. Fecha de inicio y duración no publicadas; confirmar compatibilidad con disponibilidad desde el 20-12-2026.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional",
+        "category": "Control de Gestión y Proyectos",
+        "requirements": ["Ingeniería Comercial o carrera afín según el cupo.", "Confirmar seguro escolar, duración y fecha de inicio.", "Confirmar monto del bono."],
+        "responsibilities": ["Apoyar proyectos de la vicepresidencia.", "Dar seguimiento a indicadores y avances.", "Preparar análisis y reportes de gestión."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; confirmar fecha exacta del comienzo y que la práctica no parta antes del 20-12-2026.",
+      "job": {
+        "companyName": "KPMG Chile",
+        "title": "Práctica Profesional Auditoría Temporada de Verano",
+        "originalUrl": "https://api.firstjob.me/oferta/57400/practica-profesional-auditoria-temporada-de-verano",
+        "description": "Práctica de auditoría de temporada de verano, 360 horas, con trabajo híbrido. La ficha indica período entre diciembre y enero y una asignación de CLP 400.000. Confirmar la fecha exacta: si el inicio es antes del 20-12-2026, no sería compatible con la disponibilidad registrada.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, 360 horas",
+        "category": "Auditoría y Finanzas",
+        "requirements": ["Ingeniería Comercial u otra carrera elegible indicada en la ficha.", "Seguro escolar vigente.", "Confirmar fecha exacta de inicio y cumplir 360 horas."],
+        "responsibilities": ["Apoyar tareas de auditoría de temporada.", "Colaborar con equipos de auditoría.", "Preparar análisis y documentación de respaldo."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; confirmar fecha de inicio, duración y monto de asignación.",
+      "job": {
+        "companyName": "Hites",
+        "title": "Práctica Marketplace",
+        "originalUrl": "https://api.firstjob.me/oferta/56776/practica-marketplace",
+        "description": "Práctica híbrida para un proyecto de inteligencia de marketplace, con benchmarking, revisión de precios y comisiones, y análisis del negocio digital. La ficha menciona práctica remunerada, pero no publica monto, duración ni fecha de inicio.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional",
+        "category": "E-commerce y Marketplace",
+        "requirements": ["Ingeniería Comercial, Ingeniería Civil Industrial, Administración o Marketing.", "Confirmar seguro escolar, duración y fecha de inicio.", "El monto de asignación no está publicado."],
+        "responsibilities": ["Investigar y analizar el mercado de marketplace.", "Apoyar análisis de precios y comisiones.", "Contribuir a un proyecto de inteligencia comercial digital."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública de FirstJob revisada el 2026-10-16; consultar la ficha enlazada para confirmar vigencia.",
+      "job": {
+        "companyName": "Wild Foods",
+        "title": "Práctica Comercial Wild Foods - Trade",
+        "originalUrl": "https://api.firstjob.me/oferta/57076/practica-comercial-wild-foods-trade",
+        "description": "Práctica híbrida en Comercial/Trade, con duración publicada de 2 a 6 meses e inicio ideal en enero de 2027. Tareas de KPIs comerciales, equipo de campo, actividades con clientes, proveedores y estrategia de precios en punto de venta. Remuneración no publicada.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, 2 a 6 meses",
+        "category": "Comercial y Trade Marketing",
+        "requirements": ["Ingeniería Comercial, Ingeniería Civil Industrial o carrera afín.", "Excel y Google Sheets.", "Confirmar seguro escolar, remuneración y duración acordada."],
+        "responsibilities": ["Dar seguimiento a KPIs comerciales y precios.", "Apoyar al equipo de campo y actividades con clientes.", "Coordinar proveedores y análisis de punto de venta."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16 y con botón Solicitar; confirmar asignación y requisitos al abrir el proceso.",
+      "job": {
+        "companyName": "Worley",
+        "title": "Programa de Prácticas 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/programa-de-pr%C3%A1cticas-2027-at-worley-4474338548",
+        "description": "Programa presencial en Las Condes, enero-marzo de 2027, 360 horas. Ingeniería Comercial aparece entre las carreras elegibles. Beneficio de movilización y alimentación; la ficha no publica monto de una asignación.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional de verano, 360 horas",
+        "category": "Práctica Comercial y Proyectos",
+        "requirements": ["Ingeniería Comercial está entre las carreras aceptadas.", "Estudiante de últimos años y seguro escolar vigente.", "Disponibilidad para enero-marzo de 2027 y 360 horas."],
+        "responsibilities": ["Participar en equipos multidisciplinarios de proyectos.", "Aprender sobre proyectos de energía e ingeniería.", "Colaborar con profesionales de distintas disciplinas."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; confirma inicio en enero y recepción de solicitudes. No se publicó monto de asignación.",
+      "job": {
+        "companyName": "Banco de Chile",
+        "title": "Práctica Profesional Área Comercial - Región Metropolitana",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-%C3%A1rea-comercial-regi%C3%B3n-metropolitana-at-banco-de-chile-4475119819",
+        "description": "Práctica full-time en División Comercial, con inicio en enero de 2027 y mínimo 360 horas durante enero-febrero (aprox. dos meses). La ficha permite extender para cumplir las horas académicas requeridas. Asignación no publicada.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional full-time, mínimo 360 horas",
+        "category": "Comercial",
+        "requirements": ["Ingeniería Comercial u otra carrera indicada por el área financiera/comercial.", "Práctica obligatoria de mínimo 360 horas.", "Seguro médico estudiantil vigente."],
+        "responsibilities": ["Apoyar labores de la División Comercial.", "Colaborar en atención y apoyo comercial.", "Cumplir al menos 360 horas durante enero y febrero de 2027."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada en octubre de 2026; confirmar fecha de inicio y asignación.",
+      "job": {
+        "companyName": "Falabella",
+        "title": "Practicante Venta Empresa",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/practicante-venta-empresa-at-falabella-4457394956",
+        "description": "Práctica en ventas B2B, con apoyo a cotizaciones y gestión de pedidos para clientes empresa. La publicación no especifica en la información revisada el monto de asignación, fecha de inicio ni duración; confirmar antes de priorizar.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Ventas B2B",
+        "requirements": ["Confirmar carreras aceptadas y seguro escolar en la ficha.", "Confirmar duración y fecha de inicio desde el 20-12-2026.", "La asignación no está publicada en la información revisada."],
+        "responsibilities": ["Apoyar el proceso de venta a empresas.", "Preparar cotizaciones y apoyar pedidos.", "Coordinar necesidades de clientes empresa con equipos internos."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; inicio en enero y práctica de seis meses publicados.",
+      "job": {
+        "companyName": "adidas Chile",
+        "title": "Internship Program Chile 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/internship-program-chile-2027-at-adidas-4471755343",
+        "description": "Programa híbrido en Vitacura, de enero a junio de 2027. Áreas disponibles incluyen Marketing y Comunicaciones, Comercial y Logística. Duración publicada: 6 meses. Asignación no publicada.",
+        "location": "Vitacura, Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, 6 meses",
+        "category": "Marketing, Comercial y Logística",
+        "requirements": ["Administración, Ingeniería, Marketing, Publicidad, Comunicaciones u otra carrera afín.", "Certificado de alumno regular y seguro escolar vigente.", "Disponibilidad de enero a junio de 2027."],
+        "responsibilities": ["Integrarse a un área asignada del programa.", "Participar en actividades de Marketing, Comercial o Logística.", "Colaborar con equipos y proyectos internos."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada en octubre de 2026; período enero-marzo 2027 publicado.",
+      "job": {
+        "companyName": "Grupo Falabella",
+        "title": "Practicante en Estudios Estratégicos",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1cticante-en-estudios-estrat%C3%A9gicos-at-grupo-falabella-4466557918",
+        "description": "Práctica de análisis estratégico con iniciativas de alto impacto y trabajo con gerencia y equipo de analistas. Período publicado: enero-marzo de 2027, duración 3 meses. La asignación no está publicada.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional, 3 meses",
+        "category": "Estudios Estratégicos y Análisis de Negocio",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil, cursando 4° o 5° año.", "Excel intermedio; inglés avanzado deseable.", "Seguro escolar vigente y disponibilidad enero-marzo de 2027."],
+        "responsibilities": ["Apoyar análisis e iniciativas estratégicas.", "Trabajar con la gerencia y analistas.", "Investigar y presentar información para decisiones de negocio."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada en octubre de 2026; confirma práctica de seis meses y botón de postulación. Inicio y asignación no aparecen en el extracto revisado.",
+      "job": {
+        "companyName": "Toyota Chile",
+        "title": "Práctica Profesional Canales Digitales",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-canales-digitales-at-toyota-chile-s-a-4468644670",
+        "description": "Práctica de 6 meses en Canales Digitales, con trabajo en Tienda Toyota y Autonauta: campañas, contenido, catálogo de productos y experiencia de cliente. Ubicación reportada: Pudahuel. El extracto revisado no publica asignación ni fecha de inicio; confirmar compatibilidad con disponibilidad desde el 20-12-2026.",
+        "location": "Pudahuel, Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional, 6 meses",
+        "category": "Canales Digitales y E-commerce",
+        "requirements": ["Ingeniería Comercial, Ingeniería en Marketing, Publicidad, Administración o carrera afín.", "Disponibilidad para 6 meses.", "Confirmar modalidad, seguro escolar, inicio y monto de asignación."],
+        "responsibilities": ["Apoyar campañas comerciales y digitales.", "Actualizar productos, accesorios y contenidos.", "Detectar mejoras en experiencia y navegación de canales digitales."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada en octubre de 2026; revisar fecha exacta de inicio, duración y monto antes de priorizar.",
+      "job": {
+        "companyName": "Synthon Chile",
+        "title": "Práctica Marketing",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-marketing-at-synthon-chile-4460858100",
+        "description": "Práctica en Marketing y Comercial para campañas, planes de marca, análisis de resultados/ROI, mercado, competencia y apoyo a Trade Marketing y e-commerce. La publicación menciona práctica remunerada, pero el monto, duración y fecha de inicio no aparecen en la información revisada.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional remunerada",
+        "category": "Marketing y Comercial",
+        "requirements": ["Ingeniería Comercial, Marketing, Administración o carrera afín.", "Manejo de Excel y PowerPoint.", "Confirmar seguro escolar, duración y fecha de inicio."],
+        "responsibilities": ["Apoyar campañas, planes de marca y Trade Marketing.", "Analizar ventas, inversión y ROI.", "Coordinar agencias y recopilar información de mercado."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; confirmar postulación, duración e inicio.",
+      "job": {
+        "companyName": "Bureau Veritas Chile",
+        "title": "Asistente Comercial para Práctica Profesional",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/asistente-comercial-para-pr%C3%A1ctica-profesional-bureau-veritas-certificaci%C3%B3n-santiago-at-bureau-veritas-chile-4470637839",
+        "description": "Práctica/asistencia comercial para certificación, en modalidad híbrida en Macul; la publicación menciona 360 horas. Monto de asignación, fecha de inicio y distribución de días presenciales no publicados en el extracto revisado.",
+        "location": "Macul, Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional, 360 horas",
+        "category": "Comercial y Ventas",
+        "requirements": ["Confirmar carreras elegibles en la ficha.", "Confirmar seguro escolar, duración y fecha de inicio.", "La asignación no está publicada en el extracto revisado."],
+        "responsibilities": ["Apoyar procesos y gestiones del área comercial.", "Colaborar con equipos de certificación y clientes.", "Confirmar funciones detalladas en la ficha antes de postular."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada en octubre de 2026; confirmar cupo vigente y fecha de inicio.",
+      "job": {
+        "companyName": "EY Chile",
+        "title": "Práctica Profesional Business Transformation",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-business-transformation-1-1-1-1-1-1-1-at-ey-4472592954",
+        "description": "Práctica en Business Transformation con trabajo en proyectos de transformación de negocio. La publicación revisada indica una duración mínima de 3 meses; asignación y fecha de inicio no publicadas. Confirmar que el inicio sea desde el 20-12-2026 o posterior.",
+        "location": "Gran Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional, mínimo 3 meses",
+        "category": "Transformación de Negocios",
+        "requirements": ["Ingeniería Comercial o carrera afín, según información publicada.", "Confirmar seguro escolar, fecha de inicio y modalidad.", "Confirmar monto de asignación y duración requerida."],
+        "responsibilities": ["Apoyar proyectos de transformación de negocio.", "Colaborar con equipos de consultoría y clientes.", "Preparar análisis y materiales de proyecto según el equipo asignado."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; inicio en enero de 2027 y remuneración confirmados, monto no publicado.",
+      "job": {
+        "companyName": "Principal Chile",
+        "title": "Práctica Profesional Desarrollo Comercial",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-desarrollo-comercial-at-principal-chile-4479634119",
+        "description": "Práctica híbrida en Desarrollo Comercial y proyectos estratégicos, con análisis comercial, mejora de procesos, reportes y apoyo a decisiones. Inicio publicado: enero de 2027; duración: 3 meses. Práctica remunerada, sin monto publicado; se mencionan Excel, Power BI y uso de herramientas de IA.",
+        "location": "Gran Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional remunerada, 3 meses",
+        "category": "Desarrollo Comercial y Proyectos",
+        "requirements": ["Ingeniería Comercial, Ingeniería Civil Industrial o carrera afín, último año.", "Excel y conocimientos de Power BI.", "Seguro escolar vigente y disponibilidad desde enero de 2027."],
+        "responsibilities": ["Analizar información comercial y apoyar proyectos estratégicos.", "Documentar y mejorar procesos.", "Preparar reportes para decisiones del negocio."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn indexada el 2026-10-16; confirmar fecha de inicio, duración y monto de asignación.",
+      "job": {
+        "companyName": "Buk",
+        "title": "Práctica Comercial Verano 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-comercial-verano-2027-at-buk-4479366845",
+        "description": "Práctica comercial de verano 2027 con opciones en Sales Operations/B2B y licitaciones públicas. Orientada a estudiantes de Ingeniería Comercial, Administración, Ingeniería Civil Industrial o Administración Pública. Duración, inicio exacto y asignación no publicados en la información revisada.",
+        "location": "Área metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional de verano 2027",
+        "category": "Comercial, Sales Operations y Desarrollo de Negocios",
+        "requirements": ["Ingeniería Comercial, Administración, Ingeniería Civil Industrial o Administración Pública.", "Confirmar seguro escolar, duración y fecha de inicio.", "Monto de asignación no publicado."],
+        "responsibilities": ["Apoyar operaciones de venta B2B o licitaciones públicas.", "Colaborar en tareas comerciales del equipo asignado.", "Confirmar el área disponible y sus funciones al postular."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; botón Solicitar visible. Revisar requisitos académicos completos en la ficha.",
+      "job": {
+        "companyName": "Saint Honoré",
+        "title": "Práctica Profesional Marketing",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-marketing-at-saint-honor%C3%A9-4472284196",
+        "description": "Práctica de Marketing en Retail para campañas, lanzamientos, coordinación de materiales, proveedores y ejecución en tienda. Ubicación: Las Condes. Bono de práctica publicado: CLP 300.000 líquidos. La fecha de inicio, duración y carreras elegibles deben confirmarse en la ficha completa.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional",
+        "category": "Marketing Retail",
+        "requirements": ["Confirmar carrera aceptada, seguro escolar y duración en la ficha.", "Confirmar fecha de inicio compatible con disponibilidad desde el 20-12-2026.", "Bono publicado: CLP 300.000 líquidos."],
+        "responsibilities": ["Apoyar campañas y lanzamientos de marketing.", "Coordinar proveedores, materiales y comunicaciones.", "Dar seguimiento a acciones comerciales en tiendas."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; solicitudes abiertas hasta el 25 de octubre de 2026.",
+      "job": {
+        "companyName": "Banco Central de Chile",
+        "title": "Programa de Prácticas 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/programa-de-pr%C3%A1cticas-2027-at-central-bank-of-chile-4479073323",
+        "description": "Programa 2027 con áreas de Economía, Negocios y Administración, Ingeniería/Tecnología y Ciencias Sociales. Modalidad híbrida o presencial y jornada parcial o completa según el cupo; duración según la institución, hasta un máximo de seis meses. Asignación compensatoria por día trabajado y almuerzo en presencialidad; monto diario no publicado. Postulaciones abiertas hasta el 25-10-2026; inicio específico no publicado.",
+        "location": "Gran Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica curricular o profesional, hasta 6 meses",
+        "category": "Negocios, Administración y Economía",
+        "requirements": ["Estudiante regular sin título técnico o profesional.", "Práctica obligatoria acreditada por la institución.", "Seguro escolar vigente y confirmar área, modalidad e inicio."],
+        "responsibilities": ["Realizar práctica en el cupo asociado a negocios/administración u otra área elegible.", "Participar en actividades analíticas y colaborativas.", "Confirmar disponibilidad y tipo de cupo con el Banco Central."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; postulaciones abiertas. Fecha de inicio y monto de asignación por confirmar.",
+      "job": {
+        "companyName": "Coca-Cola Andina",
+        "title": "Práctica Marketing Alcoholes",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-marketing-alcoholes-at-coca-cola-andina-4476786740",
+        "description": "Práctica de seis meses en Marketing Alcoholes, en Renca con al menos tres días presenciales por semana. Funciones incluyen análisis de marcas y KPIs, campañas, lanzamientos, precios y promociones. Es remunerada, pero la ficha no publica monto ni fecha de inicio; confirmar compatibilidad con disponibilidad desde el 20-12-2026.",
+        "location": "Renca, Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional remunerada, 6 meses",
+        "category": "Marketing y Análisis Comercial",
+        "requirements": ["Ingeniería Comercial o carrera afín.", "Excel intermedio/avanzado y PowerPoint.", "Confirmar seguro escolar, inicio y monto de asignación."],
+        "responsibilities": ["Analizar KPIs comerciales, financieros y de mercado.", "Apoyar campañas, lanzamientos y seguimiento de precios.", "Preparar reportes e insights para decisiones de marca."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; postulaciones hasta el 6 de noviembre de 2026.",
+      "job": {
+        "companyName": "Enaex",
+        "title": "Práctica Profesional Ingeniería Comercial / Civil Industrial - Verano 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-ing-comercial-civil-industrial-at-enaex-4479147942",
+        "description": "Práctica remunerada de verano en la Vicepresidencia de Químicos, del 4 de enero al 5 de marzo de 2027. La empresa no publica el monto de la remuneración. Duración aproximada: dos meses; requiere jornada completa durante las fechas indicadas.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional full-time, 4 de enero a 5 de marzo de 2027",
+        "category": "Comercial y Proyectos",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil Industrial.", "Residencia en Región Metropolitana y seguro escolar vigente.", "Disponibilidad completa del 4-01 al 5-03-2027."],
+        "responsibilities": ["Participar en proyectos reales de la Vicepresidencia de Químicos.", "Aprender y colaborar con el equipo de negocio.", "Confirmar funciones específicas del cupo durante el proceso."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16 y con botón Solicitar; confirmar condiciones y cupo comercial.",
+      "job": {
+        "companyName": "GOLD FIELDS",
+        "title": "Programa Prácticas y Memorias 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/programa-pr%C3%A1cticas-y-memorias-2027-at-gold-fields-4477503214",
+        "description": "Programa abierto hasta el 9 de noviembre de 2026. La práctica dura dos meses desde enero de 2027; incluye áreas de Gestión y Negocios y acepta Ingeniería Comercial. Puede requerir trabajo en faena a 4.500 m.s.n.m. y turnos 5x2, 7x7 u 8x6 según el área. Asignación descrita como acorde al mercado, sin monto; confirmar ubicación y exigencias físicas/logísticas antes de priorizar.",
+        "location": "Santiago y/o faena minera, según el área asignada",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional, 2 meses desde enero 2027",
+        "category": "Gestión y Negocios en Minería",
+        "requirements": ["Ingeniería Comercial u otra carrera elegible de Gestión y Negocios.", "Último año, seguro escolar y disponibilidad desde enero.", "Confirmar trabajo en altura, turnos, traslado y ubicación del cupo."],
+        "responsibilities": ["Apoyar el área asignada del programa.", "Aplicar conocimientos académicos en un entorno minero.", "Confirmar tareas y modalidad según el cupo de Gestión y Negocios."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada en octubre de 2026; confirmar que el cupo Comercial siga abierto y cuáles son sus fechas y sede.",
+      "job": {
+        "companyName": "Sandvik",
+        "title": "Prácticas y Memorias Sandvik 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1cticas-y-memorias-sandvik-2027-at-sandvik-4462569202",
+        "description": "Programa en Santiago para áreas técnicas, operacionales, comerciales y administrativas. La ficha menciona explícitamente Ventas y Gestión Comercial, mejora de procesos, reportes e innovación. Puede requerir visitas a faena según el área. Asignación, duración e inicio no publicados en la información revisada.",
+        "location": "Santiago, Chile; visitas a faena según el área",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional o memoria",
+        "category": "Ventas, Gestión Comercial y Operaciones",
+        "requirements": ["Estudiante de carrera universitaria afín y en proceso de práctica.", "Seguro escolar vigente.", "Office básico; inglés intermedio deseable. Confirmar cupo comercial, inicio y duración."],
+        "responsibilities": ["Apoyar iniciativas comerciales, operacionales o administrativas.", "Analizar información y contribuir a reportes.", "Participar en mejoras, digitalización e iniciativas con equipos multidisciplinarios."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn indexada el 2026-10-16; verificar inicio, duración, asignación y disponibilidad de área.",
+      "job": {
+        "companyName": "Buk",
+        "title": "Práctica Revenue Operations Verano 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-revenue-operations-verano-2027-at-buk-4479380647",
+        "description": "Práctica de Revenue Operations en verano 2027, con opciones en Customer Happiness y Onboarding. Enfoque en análisis de tiempos y satisfacción, mejora de procesos, automatización e integración de IA. Ingeniería Comercial está entre las carreras aceptadas; duración, fecha de inicio y asignación no publicados en la ficha revisada.",
+        "location": "Área metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional de verano 2027",
+        "category": "Revenue Operations",
+        "requirements": ["Ingeniería Comercial, Civil Industrial o Informática.", "Último año o carrera finalizada; manejo de datos.", "Confirmar seguro escolar, inicio, duración y asignación."],
+        "responsibilities": ["Analizar tiempos de respuesta y satisfacción.", "Mapear y mejorar procesos de soporte u onboarding.", "Apoyar automatizaciones y adopción de herramientas de IA."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; botón Solicitar visible. Requisitos específicos y período no aparecen en el extracto disponible.",
+      "job": {
+        "companyName": "Boston Consulting Group",
+        "title": "Associate, Internship, Chile 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/associate-internship-chile-2027-at-boston-consulting-group-bcg-4477592663",
+        "description": "Oportunidad de Internship 2027 en consultoría y estrategia en Santiago. La ficha pública revisada confirma el título, ubicación y postulación abierta, pero no expone en el extracto disponible duración, fechas, carrera elegible ni remuneración. Revisar esos requisitos en la publicación completa antes de priorizar.",
+        "location": "Gran Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Internship 2027, jornada completa según LinkedIn",
+        "category": "Consultoría y Estrategia",
+        "requirements": ["Confirmar carrera y nivel académico requerido en la ficha completa.", "Confirmar fecha de inicio, duración, modalidad y asignación.", "La publicación está clasificada como práctica/internship."],
+        "responsibilities": ["Revisar en la ficha completa el equipo y responsabilidades del internship.", "Posible participación en trabajo de consultoría; confirmar alcance antes de postular."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada en octubre de 2026; postulación abierta. Área final y condiciones dependen del cupo.",
+      "job": {
+        "companyName": "Grupo Falabella",
+        "title": "Programa de Prácticas Verano 2027",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/programa-de-pr%C3%A1cticas-verano-2027-grupo-falabella-at-grupo-falabella-4465380267",
+        "description": "Programa full-time de verano 2027 para estudiantes de últimos años, con opciones en las empresas del ecosistema Falabella. La ficha no especifica en la información revisada áreas concretas, fechas mensuales exactas, duración ni asignación; confirmar que exista un cupo de Comercial/Growth/Operaciones y que el inicio sea desde el 20-12-2026.",
+        "location": "Las Condes, Santiago, Chile; ubicación final según cupo",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional full-time, verano 2027",
+        "category": "Programa de Prácticas",
+        "requirements": ["Estar en últimos años y necesitar práctica profesional.", "Seguro escolar vigente durante el período.", "Confirmar área, fechas, duración, modalidad y asignación."],
+        "responsibilities": ["Postular a oportunidades en el ecosistema Falabella.", "Funciones y empresa final dependen del cupo asignado.", "Confirmar interés en áreas comerciales, digitales u operacionales."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16; botón Solicitar visible. Inicio, duración y monto del bono no publicados.",
+      "job": {
+        "companyName": "Viña Concha y Toro",
+        "title": "Practicante de Gestión y Control de Proyectos",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/practicante-de-gesti%C3%B3n-y-control-de-proyectos-at-vi%C3%B1a-concha-y-toro-4479597458",
+        "description": "Práctica en la Gerencia Agrícola, en Las Condes, con seguimiento de iniciativas y KPIs, reportes ejecutivos, análisis de datos de fundos y mejora de procesos. Ingeniería Comercial aparece entre las carreras elegibles. Se menciona bono de práctica y alimentación/casino, sin montos; los viernes hay teletrabajo y salida a las 13:45. Inicio y duración por confirmar.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional",
+        "category": "Gestión y Control de Proyectos",
+        "requirements": ["Ingeniería Comercial, Ingeniería Civil Industrial o carrera afín.", "Excel y análisis de información; seguro escolar vigente.", "Confirmar duración, fecha de inicio y monto del bono."],
+        "responsibilities": ["Seguir proyectos, tareas e indicadores.", "Preparar reportes y presentaciones ejecutivas.", "Analizar procesos e información de la Gerencia Agrícola."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Publicación de LinkedIn revisada el 2026-10-16 y con botón Solicitar; confirmar fechas, remuneración y cupo.",
+      "job": {
+        "companyName": "ABASTIBLE S.A.",
+        "title": "Práctica Planificación Comercial Hogar",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-planificaci%C3%B3n-comercial-hogar-at-abastible-s-a-4466238812",
+        "description": "Práctica en Planificación Comercial para analizar datos e indicadores, apoyar plataformas digitales, mapear procesos y seguir proyectos de transformación y operaciones. Acepta Ingeniería Comercial o Civil; duración mínima publicada: 3 meses. Modalidad, inicio y asignación no especificados en la información revisada.",
+        "location": "Las Condes, Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional, mínimo 3 meses",
+        "category": "Planificación Comercial y Transformación Digital",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil.", "Excel, PowerPoint y Microsoft 365 intermedio/avanzado; seguro escolar.", "Confirmar inicio, modalidad, duración acordada y asignación."],
+        "responsibilities": ["Analizar indicadores y datos operacionales.", "Documentar requerimientos de plataformas digitales.", "Apoyar proyectos de transformación, automatización y mejora de procesos."]
+      }
+    }
+  ]
+}

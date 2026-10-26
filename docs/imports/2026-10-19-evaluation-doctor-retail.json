@@ -1,0 +1,42 @@
+{
+  "jobId": "090e5aad-c8d3-40bb-93f1-8333ff23b1ec",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 94, "evidence": "El rol combina prospección B2B, marketing, ventas, e-commerce y estrategia comercial; coincide directamente con las experiencias declaradas en GoAuto/Dropout y Belaris." },
+    "learningPotential": { "score": 91, "evidence": "La publicación ofrece contacto directo con dueños y gerentes, ventas de consultoría de alto valor, campañas y participación en la estrategia comercial." },
+    "experienceCompatibility": { "score": 94, "evidence": "El candidato estudia Ingeniería Comercial y ya declara más de 150 llamadas comerciales, 18 cierres, generación de leads, funnels y campañas Meta Ads." },
+    "conditionsAndDuration": { "score": 68, "evidence": "La ficha informa remoto, inicio inmediato y tres meses renovables, pero el monto de la remuneración no está publicado y la duración es menor a la preferida de seis meses." },
+    "careerProjection": { "score": 87, "evidence": "La práctica ofrece exposición directa a estrategia comercial, venta B2B y clientes de retail/e-commerce, con posibilidad de aprender en una startup de crecimiento." }
+  },
+  "eligibility": "likely",
+  "professionalCategory": "Startup / Ventas B2B / Growth / Marketing / E-commerce",
+  "strengths": [
+    "Conexión directa con ventas B2B y generación de pipeline",
+    "Responsabilidad frente a clientes y gerencia comercial",
+    "Combina marketing, prospección, e-commerce y estrategia",
+    "Modalidad remota y jornada adaptable"
+  ],
+  "weaknesses": [
+    "La duración publicada es de tres meses renovables",
+    "No se informa el monto de la remuneración",
+    "El aviso menciona part-time o full-time, pero no fija jornada concreta"
+  ],
+  "missingRequirements": [
+    "Monto de la asignación o remuneración",
+    "Jornada exacta",
+    "Posibilidad real de extender a seis meses",
+    "Fecha concreta de inicio y condiciones de renovación"
+  ],
+  "learningPotential": "Aprendería prospección B2B, venta consultiva, manejo de pipeline, marketing de contenidos y campañas, trabajando sobre problemas reales de empresas de retail y e-commerce.",
+  "justification": "Es una de las coincidencias más directas encontradas para el perfil porque transforma su experiencia previa en ventas, marketing y funnels en una responsabilidad comercial concreta dentro de una startup. Recomiendo avanzar a revisión de condiciones, especialmente remuneración y posibilidad de extensión.",
+  "recommendation": "apply",
+  "confidence": 0.9,
+  "unknowns": [
+    "Remuneración exacta",
+    "Jornada acordada",
+    "Duración efectiva y renovación",
+    "Nombre y tamaño del equipo comercial"
+  ]
+}

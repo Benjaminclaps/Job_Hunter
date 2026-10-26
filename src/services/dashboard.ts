@@ -23,7 +23,7 @@ function withoutRawPayload<T extends JsonRecord>(row: T): T {
   return result;
 }
 
-export function getDashboardSnapshot() {
+export function getDashboardSnapshot(options: { includeJobDetails?: boolean; includeDocumentText?: boolean } = {}) {
   ensureDefaults();
   const { sqlite } = getDatabase();
   const stats = sqlite.prepare(`
@@ -33,12 +33,20 @@ export function getDashboardSnapshot() {
       COALESCE(SUM(CASE WHEN status = 'new' AND NOT EXISTS (SELECT 1 FROM job_evaluations e WHERE e.job_id = jobs.id) THEN 1 ELSE 0 END), 0) AS pending_jobs,
       COALESCE(SUM(CASE WHEN status NOT IN ('dismissed', 'archived') AND EXISTS (
         SELECT 1 FROM job_evaluations e WHERE e.job_id = jobs.id AND e.segment IN ('excellent', 'very_interesting')
+        AND e.recommendation <> 'skip'
         AND e.evaluated_at = (SELECT MAX(e2.evaluated_at) FROM job_evaluations e2 WHERE e2.job_id = jobs.id)
       ) THEN 1 ELSE 0 END), 0) AS high_match_jobs,
       (SELECT COUNT(*) FROM applications WHERE stage IN ('preparing', 'applied', 'interview', 'offer')) AS active_applications,
       (SELECT MAX(finished_at) FROM search_runs) AS last_scan_at
     FROM jobs
   `).get() as JsonRecord;
+
+  const jobColumns = options.includeJobDetails === false
+    ? `j.id, j.company_id, j.source_id, j.external_id, j.fingerprint, j.title, j.category,
+      j.location, j.workplace_mode, j.employment_type, j.original_url, j.published_at,
+      j.source_updated_at, j.first_seen_at, j.last_seen_at, j.status, j.personal_notes,
+      j.created_at, j.updated_at`
+    : "j.*";
 
   const jobRows = sqlite.prepare(`
     WITH latest_evaluation AS (
@@ -49,7 +57,7 @@ export function getDashboardSnapshot() {
       )
     )
     SELECT
-      j.*, c.name AS company_name, c.logo_url, s.kind AS source_kind,
+      ${jobColumns}, c.name AS company_name, c.logo_url, s.kind AS source_kind,
       e.id AS evaluation_id, e.assessment_status, e.calculated_score, e.segment,
       e.eligibility, e.professional_category, e.strengths, e.weaknesses,
       e.missing_requirements, e.learning_potential, e.justification,
@@ -61,7 +69,6 @@ export function getDashboardSnapshot() {
     JOIN sources s ON s.id = j.source_id
     LEFT JOIN latest_evaluation e ON e.job_id = j.id
     ORDER BY CASE WHEN e.calculated_score IS NULL THEN 1 ELSE 0 END, e.calculated_score DESC, j.first_seen_at DESC
-    LIMIT 300
   `).all() as JsonRecord[];
 
   const activities = sqlite.prepare(`
@@ -81,7 +88,7 @@ export function getDashboardSnapshot() {
     jobs: jobRows.map((row) => withoutRawPayload(parseJsonFields(row, ["requirements", "responsibilities", "strengths", "weaknesses", "missing_requirements", "unknowns", "evidence"]))),
     companies: listCompanies(),
     applications: listApplications(),
-    profile: getFullProfile(),
+    profile: getFullProfile({ includeDocumentText: options.includeDocumentText }),
     activity: activities.map((row) => parseJsonFields(row, ["metadata"])),
     searchRuns: runs,
     settings: getScoringSettings(),

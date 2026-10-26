@@ -7,7 +7,7 @@ import { createCompany, listCompanies } from "@/services/companies";
 import { getDashboardSnapshot, getJobDetail } from "@/services/dashboard";
 import { ensureDefaults } from "@/services/defaults";
 import { importEvaluations, pendingJobs } from "@/services/evaluations";
-import { saveFeedback } from "@/services/feedback";
+import { getFeedbackLearningContext, saveFeedback } from "@/services/feedback";
 import { importManualJob } from "@/services/jobs";
 import { updateJob } from "@/services/job-actions";
 import { getFullProfile } from "@/services/profile";
@@ -51,9 +51,9 @@ program.command("status")
   });
 
 program.command("profile:show")
-  .description("Entrega el perfil, habilidades y preferencias")
+  .description("Entrega el perfil, preferencias y aprendizaje a partir del feedback")
   .option("--json", "Salida JSON compacta")
-  .action((options) => print(getFullProfile(), options.json));
+  .action((options) => print({ ...getFullProfile(), feedbackLearningContext: getFeedbackLearningContext() }, options.json));
 
 program.command("companies:list")
   .description("Lista la watchlist de empresas")

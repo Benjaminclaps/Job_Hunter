@@ -56,15 +56,25 @@ npm run jh -- backup --json
 
 El contrato exacto de evaluación está en [docs/EVALUATION_SCHEMA.md](docs/EVALUATION_SCHEMA.md).
 
+### Revisión diaria en macOS
+
+La revisión automática consulta a las 09:00 las APIs públicas de los ATS configurados en la watchlist y filtra prácticas, internships, trainee y co-op. Instálala desde la raíz del proyecto:
+
+```bash
+scripts/launchd/install-daily-scan.sh
+```
+
+Para quitarla:
+
+```bash
+scripts/launchd/uninstall-daily-scan.sh
+```
+
+El proceso solo corre si el Mac está disponible y no publica postulaciones. BNE y los demás portales sin conector requieren una búsqueda manual de Codex; cada sesión debe registrar las fuentes en `AGENTS.md`.
+
 ## Fuentes
 
-La watchlist inicial incluye:
-
-- Microsoft: seguimiento manual hasta crear un conector oficial compatible.
-- Uplane: Ashby público.
-- Yuno: Lever público.
-
-Los tokens de Uplane y Yuno fueron verificados contra sus endpoints públicos. Puedes editar la watchlist desde Companies o la CLI:
+La watchlist de este Mac tiene conectores públicos para Cabify (Greenhouse), Telepatia y Uplane (Ashby), y Yuno (Lever). Microsoft está en seguimiento manual. Los conectores se verifican y administran desde Companies o la CLI:
 
 ```bash
 npm run jh -- companies:add --name "Empresa" --provider greenhouse --board token-publico
@@ -141,6 +151,6 @@ Las pruebas unitarias usan bases temporales y datos identificados como sintétic
 
 ## Alcance actual
 
-Las fases 1, 2 y 3 están implementadas como MVP: persistencia, perfil, dashboard, CLI, watchlist, tres conectores, importación manual, deduplicación, evaluación validada, ranking, feedback y actualización automática.
+Las fases 1, 2 y 3 están implementadas como MVP: persistencia, perfil, dashboard, CLI, watchlist, tres conectores, importación manual, deduplicación, evaluación validada, ranking, feedback y actualización automática. La búsqueda diaria de los ATS se puede programar con LaunchAgent.
 
-Quedan para fases posteriores el comparador avanzado, launchd, Ollama, MCP local y notificaciones. Ollama no se descarga ni activa automáticamente.
+Quedan para fases posteriores el comparador avanzado, Ollama, MCP local y notificaciones. Ollama no se descarga ni activa automáticamente.

@@ -1,0 +1,119 @@
+{
+  "evaluations": [
+    {
+      "jobId": "7954d259-2c66-4258-84cc-c83a3f059e6c",
+      "method": "codex_cli",
+      "evaluator": "Codex CLI",
+      "assessmentStatus": "scored",
+      "dimensions": {
+        "professionalAlignment": { "score": 85, "evidence": "El cargo combina prospección, calificación de leads, CRM y venta de una plataforma SaaS, muy cercano a la experiencia declarada en adquisición B2B, más de 150 llamadas comerciales, cierre de 18 clientes y embudos." },
+        "learningPotential": { "score": 82, "evidence": "Permite profundizar outbound, llamadas en frío, venta SaaS y gestión de pipeline dentro de una empresa tecnológica con exposición comercial directa." },
+        "experienceCompatibility": { "score": 70, "evidence": "La experiencia comercial y de generación de leads es fuerte, pero la ficha exige al menos 6 meses de atención al cliente y esa experiencia específica no está documentada en el perfil." },
+        "conditionsAndDuration": { "score": 75, "evidence": "La ficha confirma jornada completa, modalidad híbrida y Santiago; no informa sueldo base ni fecha de inicio, por lo que hay que confirmar compatibilidad con el 20-12-2026." },
+        "careerProjection": { "score": 80, "evidence": "El rol está en un área estratégica de una empresa SaaS y puede consolidar un camino hacia SDR, BDR, Account Executive o Growth comercial." }
+      },
+      "eligibility": "likely",
+      "professionalCategory": "Ventas B2B / Prospección / SaaS",
+      "strengths": ["Experiencia demostrable en llamadas comerciales y cierre.", "Experiencia en adquisición B2B, leads y embudos.", "Santiago e híbrido; nivel junior compatible con el momento profesional."],
+      "weaknesses": ["La ficha menciona atención al cliente, no solo ventas.", "No se publica sueldo base, fecha de inicio ni esquema concreto de comisiones."],
+      "missingRequirements": ["Confirmar si aceptan experiencia comercial equivalente a atención al cliente.", "Confirmar fecha de inicio y compensación."],
+      "learningPotential": "Profundizarías en prospección outbound, calificación SaaS, CRM y disciplina de pipeline, con una conexión clara a tu trayectoria de marketing y ventas.",
+      "justification": "Es una oportunidad junior razonable para convertir tu experiencia práctica en un cargo comercial formal. La recomendación es positiva, pero conviene validar la equivalencia entre tu experiencia de ventas y el requisito de atención al cliente, además de la fecha de inicio.",
+      "recommendation": "consider",
+      "confidence": 0.84,
+      "unknowns": ["Sueldo base y comisiones.", "Fecha de inicio.", "Si la experiencia de ventas se acepta como equivalente a atención al cliente."]
+    },
+    {
+      "jobId": "a8c0c744-89a7-40ed-8acc-719fdd6a1180",
+      "method": "codex_cli",
+      "evaluator": "Codex CLI",
+      "assessmentStatus": "scored",
+      "dimensions": {
+        "professionalAlignment": { "score": 93, "evidence": "El rol pide convertir leads inbound, hacer demos, administrar el funnel, reportar KPIs y dar feedback a Marketing; coincide directamente con ventas SaaS B2B, cierre de 18 clientes, Meta Ads y backoffice de conversiones." },
+        "learningPotential": { "score": 88, "evidence": "Ofrece aprendizaje aplicado en venta consultiva, demos de producto, inbound sales, métricas de cierre y colaboración entre Marketing y Sales en una plataforma SaaS." },
+        "experienceCompatibility": { "score": 82, "evidence": "Tu experiencia incluye ventas B2B, más de 150 llamadas y 18 cierres, además de CRM y embudos. La brecha es que la oferta pide manejo avanzado de CRM y experiencia SaaS comprobable con metas, cuyo nivel exacto debe verificarse." },
+        "conditionsAndDuration": { "score": 67, "evidence": "La ficha confirma jornada completa presencial en Santiago, pero no informa sueldo ni fecha de inicio; la presencialidad es compatible con la preferencia, aunque debe validarse el inicio desde el 20-12-2026." },
+        "careerProjection": { "score": 90, "evidence": "La combinación de ventas consultivas, SaaS, KPIs y feedback a Marketing puede proyectar hacia Business Development, Account Executive, Growth o Revenue Operations." }
+      },
+      "eligibility": "likely",
+      "professionalCategory": "Business Development / Ventas SaaS / Growth",
+      "strengths": ["Encaje muy directo con ventas B2B SaaS y cierre.", "Experiencia cuantificada en llamadas y clientes cerrados.", "Trabajo con funnel, CRM, adquisición y métricas."],
+      "weaknesses": ["La ficha clasifica el cargo como semi senior.", "Es presencial y no publica sueldo ni fecha de inicio.", "No está documentado el nivel avanzado de HubSpot/Salesforce."],
+      "missingRequirements": ["Confirmar si el nivel de CRM es suficiente para el cargo.", "Confirmar sueldo, fecha de inicio y expectativas de seniority."],
+      "learningPotential": "Te permitiría formalizar la experiencia de GoAuto/Dropout en una función de Business Development con demos, cierre, gestión de funnel y métricas comerciales.",
+      "justification": "Es una de las mejores coincidencias de la búsqueda por la relación entre responsabilidades y experiencia real. Aunque el portal la etiqueta como semi senior, la publicación no exige años concretos; conviene postular solo después de confirmar que aceptan un perfil con aproximadamente un año de experiencia práctica.",
+      "recommendation": "apply",
+      "confidence": 0.86,
+      "unknowns": ["Sueldo y variable.", "Fecha de inicio.", "Nivel real esperado de CRM y seniority del equipo."]
+    },
+    {
+      "jobId": "b1d2a5c8-d623-485b-a26b-29449c555440",
+      "method": "codex_cli",
+      "evaluator": "Codex CLI",
+      "assessmentStatus": "scored",
+      "dimensions": {
+        "professionalAlignment": { "score": 92, "evidence": "El rol combina generación de demanda, outbound multicanal, calificación, CRM, colaboración con Marketing y mejora de conversiones; coincide con adquisición B2B, ventas, Meta Ads y embudos declarados." },
+        "learningPotential": { "score": 91, "evidence": "Incluye investigación de cuentas, mensajes y secuencias, trabajo con Marketing y Operaciones, análisis del CRM y uso responsable de asistentes de IA." },
+        "experienceCompatibility": { "score": 85, "evidence": "Tu perfil documenta más de 150 llamadas comerciales, 18 cierres, adquisición B2B, CRM, generación de leads y agentes de IA. La oferta no fija años de experiencia, aunque el portal la clasifica como semi senior." },
+        "conditionsAndDuration": { "score": 80, "evidence": "La ficha confirma jornada completa, híbrido y Santiago, con posibilidad de trabajo remoto; no informa sueldo ni fecha de inicio, por lo que hay que validar el 20-12-2026." },
+        "careerProjection": { "score": 92, "evidence": "Una función SDR en una empresa SaaS de salud puede proyectar hacia BDR, Account Executive, Demand Generation, Growth o RevOps y conecta negocio con tecnología aplicada." }
+      },
+      "eligibility": "likely",
+      "professionalCategory": "SDR / Demand Generation / Ventas SaaS",
+      "strengths": ["Coincidencia directa con prospección B2B, generación de demanda y pipeline.", "Uso de IA y tecnología aplicada ya documentado en el perfil.", "Modalidad híbrida en Santiago y rol con proyección comercial."],
+      "weaknesses": ["El portal la clasifica como semi senior.", "No se informa sueldo ni fecha de inicio.", "No se conocen los volúmenes de pipeline o metas exigidos."],
+      "missingRequirements": ["Confirmar qué nivel de seniority esperan realmente.", "Confirmar sueldo, fecha de inicio y metas comerciales."],
+      "learningPotential": "Podrías profundizar en outbound multicanal, demand generation, sales enablement, análisis de pipeline y automatizaciones de IA aplicadas a ventas.",
+      "justification": "Es una coincidencia fuerte y coherente con tu experiencia de marketing y ventas. La etiqueta semi senior merece validación, pero los requisitos publicados describen capacidades que sí aparecen en tu perfil; por eso queda como recomendación positiva con confirmación de seniority.",
+      "recommendation": "apply",
+      "confidence": 0.87,
+      "unknowns": ["Sueldo y variable.", "Fecha de inicio.", "Nivel de seniority y metas esperadas."]
+    },
+    {
+      "jobId": "43535a3b-b310-48d9-b1c8-f96f08fcb14b",
+      "method": "codex_cli",
+      "evaluator": "Codex CLI",
+      "assessmentStatus": "scored",
+      "dimensions": {
+        "professionalAlignment": { "score": 82, "evidence": "Conecta negocio, CRM, KPI, experiencia de usuarios y tecnología, áreas relacionadas con tus backoffices comerciales, coordinación operativa y estrategia aplicada." },
+        "learningPotential": { "score": 91, "evidence": "El rol ofrece exposición a Salesforce, Marketing Cloud, Genesys CX, backlog, requerimientos funcionales, metodologías ágiles y coordinación con múltiples áreas." },
+        "experienceCompatibility": { "score": 53, "evidence": "Hay evidencia de KPI, CRM, procesos, coordinación y construcción de herramientas internas, pero no están documentados Jira, Confluence, Scrum/Kanban, historias de usuario ni criterios de aceptación; además el portal lo clasifica como semi senior." },
+        "conditionsAndDuration": { "score": 80, "evidence": "La ficha confirma jornada completa, modalidad híbrida y Santiago; no informa sueldo ni fecha de inicio y debe validarse la disponibilidad desde el 20-12-2026." },
+        "careerProjection": { "score": 90, "evidence": "La conexión entre negocio, producto, CRM y tecnología puede proyectar hacia Product Operations, Business Analysis, CRM/Growth Operations o transformación digital." }
+      },
+      "eligibility": "unclear",
+      "professionalCategory": "Business Analytics / CRM / Product Operations",
+      "strengths": ["Ingeniería Comercial en curso y experiencia con negocio, métricas y CRM.", "Interés y proyectos reales que conectan negocio con tecnología.", "Alta exposición potencial a transformación digital y producto."],
+      "weaknesses": ["Brecha importante en Jira/Confluence y metodologías ágiles documentadas.", "No están acreditadas historias de usuario, criterios de aceptación ni levantamiento formal de requerimientos.", "La clasificación semi senior puede ser exigente para un año de experiencia."],
+      "missingRequirements": ["Confirmar experiencia real con Jira, Confluence, Scrum/Kanban y documentación funcional.", "Confirmar si aceptan experiencia de proyectos propios como equivalente.", "Confirmar seniority y fecha de inicio."],
+      "learningPotential": "Sería una apuesta de transición desde growth/ventas hacia Product Operations y Business Analysis, con aprendizaje alto pero una curva de entrada más exigente que los roles comerciales.",
+      "justification": "La oferta es interesante por trayectoria, pero no debe presentarse como coincidencia segura: varias herramientas y prácticas centrales no aparecen acreditadas en el CV. Mantenerla visible para revisión y solo considerarla si puedes demostrar esos conocimientos o proyectos concretos.",
+      "recommendation": "review",
+      "confidence": 0.89,
+      "unknowns": ["Nivel real de Jira y Confluence.", "Experiencia con Scrum/Kanban, historias de usuario y criterios de aceptación.", "Sueldo y fecha de inicio."]
+    },
+    {
+      "jobId": "d6930767-5050-469f-98c5-80824d626666",
+      "method": "codex_cli",
+      "evaluator": "Codex CLI",
+      "assessmentStatus": "scored",
+      "dimensions": {
+        "professionalAlignment": { "score": 95, "evidence": "El cargo se centra en Paid Media, ecommerce, adquisición, conversiones, ventas y ROAS; coincide directamente con más de 70 creativos, campañas Meta Ads, marketing de performance y embudos declarados." },
+        "learningPotential": { "score": 89, "evidence": "Permite ampliar desde Meta Ads hacia Google Ads, TikTok Ads, ecommerce, Shopping, Performance Max, remarketing, reportería y optimización multicanal." },
+        "experienceCompatibility": { "score": 78, "evidence": "El límite publicado de hasta 2 años encaja con tu etapa y tienes experiencia en performance/Meta Ads. No están documentados Google Ads, TikTok Ads ni GA4, que aparecen como requisitos de la ficha." },
+        "conditionsAndDuration": { "score": 82, "evidence": "La ficha confirma jornada completa, modalidad híbrida y Santiago; no informa sueldo ni fecha de inicio, por lo que debe confirmarse compatibilidad con el 20-12-2026." },
+        "careerProjection": { "score": 87, "evidence": "El foco en ecommerce, medición y optimización puede fortalecer una trayectoria en Performance Marketing, Growth, E-commerce o Marketing Analytics." }
+      },
+      "eligibility": "unclear",
+      "professionalCategory": "Paid Media / Performance Marketing / E-commerce",
+      "strengths": ["Es el encaje más directo con tu experiencia de performance y Meta Ads.", "El nivel junior y el máximo de 2 años son compatibles con tu etapa.", "La función es comercial y orientada a resultados, no de contenido puro."],
+      "weaknesses": ["GA4, TikTok Ads y Google Ads no están acreditados en el perfil.", "No se publica sueldo ni fecha de inicio.", "La oferta puede exigir operación diaria multicanal desde el inicio."],
+      "missingRequirements": ["Confirmar nivel real de Google Ads, TikTok Ads y GA4.", "Confirmar sueldo, fecha de inicio y disponibilidad de capacitación."],
+      "learningPotential": "Te permitiría convertir tu experiencia fuerte en Meta Ads en un perfil de performance más completo, sumando ecommerce, Google/TikTok Ads, ROAS y reportería.",
+      "justification": "Es una recomendación muy interesante por alineación con tu experiencia, pero la elegibilidad depende de tres herramientas no acreditadas. No conviene inventarlas en el CV; primero hay que confirmar si son excluyentes o si aceptan aprendizaje en el cargo.",
+      "recommendation": "consider",
+      "confidence": 0.92,
+      "unknowns": ["Dominio real de Google Ads, TikTok Ads y GA4.", "Sueldo y fecha de inicio.", "Si las herramientas son excluyentes o entrenables."]
+    }
+  ]
+}

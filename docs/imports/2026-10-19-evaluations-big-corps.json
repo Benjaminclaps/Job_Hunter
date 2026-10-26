@@ -1,0 +1,73 @@
+{
+  "evaluations": [
+    {
+      "jobId": "aa0b9a96-d6d1-4c7e-b87e-b054e2a20f27",
+      "method": "codex_cli",
+      "evaluator": "Codex CLI",
+      "assessmentStatus": "insufficient",
+      "dimensions": {
+        "professionalAlignment": { "score": null, "evidence": "El programa confirma una práctica en Bci, pero no publica el área ni las funciones del cupo específico." },
+        "learningPotential": { "score": null, "evidence": "La página menciona equipos de alto impacto y cursos, pero no permite identificar el proyecto o equipo asignado." },
+        "experienceCompatibility": { "score": null, "evidence": "El perfil de Ingeniería Comercial es compatible de forma general, pero faltan los requisitos y área del cupo concreto." },
+        "conditionsAndDuration": { "score": null, "evidence": "La página informa flexibilidad y modalidades posibles, pero no define duración, asignación ni modalidad individual." },
+        "careerProjection": { "score": null, "evidence": "Bci ofrece exposición al sector financiero, pero la proyección depende del equipo y función que se asignen." }
+      },
+      "eligibility": "unclear",
+      "professionalCategory": "Banca / Estrategia / Comercial / Operaciones",
+      "strengths": ["Empresa grande y alineada con estrategia, negocio y tecnología aplicada", "La convocatoria contempla modalidad presencial, híbrida o remota según el rol", "Publica asignación y alimentación como beneficios del programa"],
+      "weaknesses": ["No existe una descripción de cargo individual", "El área, duración y condiciones concretas deben confirmarse dentro del portal"],
+      "missingRequirements": ["Área y funciones del cupo", "Duración y fecha de inicio", "Modalidad específica", "Monto de asignación", "Requisitos de seguro escolar y convenio"],
+      "learningPotential": "Podría ofrecer aprendizaje relevante en banca, operaciones, estrategia o comercial, pero no se puede precisar responsablemente hasta conocer el cupo específico.",
+      "justification": "Es una convocatoria que vale la pena mantener visible por el tamaño de Bci y su posible conexión con estrategia comercial, operaciones y tecnología. La información pública no alcanza para presentarla como coincidencia positiva ni para confirmar elegibilidad.",
+      "recommendation": "review",
+      "confidence": 0.97,
+      "unknowns": ["Área y equipo asignado", "Duración", "Fecha de inicio", "Modalidad", "Asignación", "Requisitos académicos específicos"]
+    },
+    {
+      "jobId": "bfcfd635-9f54-4b24-8f37-f15b65445733",
+      "method": "codex_cli",
+      "evaluator": "Codex CLI",
+      "assessmentStatus": "insufficient",
+      "dimensions": {
+        "professionalAlignment": { "score": null, "evidence": "Mallplaza confirma proyectos relacionados con visitantes, locatarios y comunidades, pero no publica el área del cupo." },
+        "learningPotential": { "score": null, "evidence": "La convocatoria promete proyectos reales y trabajo colaborativo, sin describir responsabilidades concretas." },
+        "experienceCompatibility": { "score": null, "evidence": "Los últimos años de Ingeniería Comercial son compatibles de forma general, pero faltan requisitos por área." },
+        "conditionsAndDuration": { "score": null, "evidence": "Se informa práctica full-time de verano 2027 en Huechuraba, pero no se publica duración exacta, modalidad ni asignación." },
+        "careerProjection": { "score": null, "evidence": "La exposición a retail, experiencia de clientes y proyectos puede ser valiosa, pero depende del cupo asignado." }
+      },
+      "eligibility": "unclear",
+      "professionalCategory": "Retail / Experiencia de clientes / Operaciones",
+      "strengths": ["Empresa grande del ecosistema Falabella", "Proyectos con conexión potencial a experiencia de clientes, retail y operaciones", "Ubicación en Santiago y convocatoria vigente para verano 2027"],
+      "weaknesses": ["Área y cargo no definidos", "No se publican modalidad, duración exacta ni asignación"],
+      "missingRequirements": ["Área y funciones del cupo", "Duración exacta", "Modalidad", "Monto de asignación", "Requisitos académicos específicos"],
+      "learningPotential": "Podría aportar aprendizaje en retail, experiencia de clientes, operaciones o negocio digital, pero se debe confirmar el equipo antes de priorizarla.",
+      "justification": "Conviene conservarla como programa abierto porque la empresa y el contexto retail son relevantes para el perfil. La publicación es demasiado amplia para puntuarla o recomendarla como postulación inmediata.",
+      "recommendation": "review",
+      "confidence": 0.96,
+      "unknowns": ["Área y equipo asignado", "Duración", "Modalidad", "Asignación", "Fecha exacta de inicio"]
+    },
+    {
+      "jobId": "8f4674b6-f56b-4610-b145-b18c9c18739f",
+      "method": "codex_cli",
+      "evaluator": "Codex CLI",
+      "assessmentStatus": "insufficient",
+      "dimensions": {
+        "professionalAlignment": { "score": null, "evidence": "IKEA/Grupo Falabella confirma una práctica dentro de un ecosistema de retail, pero no informa el área del cupo." },
+        "learningPotential": { "score": null, "evidence": "La convocatoria habla de aprendizaje y proyectos, sin describir tareas ni equipo concreto." },
+        "experienceCompatibility": { "score": null, "evidence": "El perfil de Ingeniería Comercial y experiencia en growth, e-commerce y operaciones podría ser pertinente, pero faltan requisitos del cargo específico." },
+        "conditionsAndDuration": { "score": null, "evidence": "Se informa una práctica full-time de verano 2027 en Las Condes, pero no se publica duración exacta, modalidad ni asignación." },
+        "careerProjection": { "score": null, "evidence": "IKEA y el ecosistema Falabella pueden ofrecer exposición a retail y e-commerce, pero la proyección depende de la posición elegida." }
+      },
+      "eligibility": "unclear",
+      "professionalCategory": "Retail / E-commerce / Operaciones / Comercial",
+      "strengths": ["Marca global con operación local en Santiago", "Conexión potencial con retail, e-commerce y experiencia de clientes", "Convocatoria vigente para verano 2027"],
+      "weaknesses": ["La ficha no identifica área ni funciones", "Las condiciones cambian según la posición disponible"],
+      "missingRequirements": ["Área y funciones del cupo", "Duración exacta", "Modalidad", "Monto de asignación", "Requisitos académicos específicos"],
+      "learningPotential": "Puede ser una buena puerta de entrada a retail, e-commerce u operaciones, pero es necesario conocer la posición concreta para evaluar el aprendizaje.",
+      "justification": "La convocatoria es relevante por el tamaño del grupo y la conexión con retail digital, pero no corresponde inventar un encaje específico mientras IKEA no publique el detalle de cada cupo.",
+      "recommendation": "review",
+      "confidence": 0.96,
+      "unknowns": ["Área y equipo asignado", "Duración", "Modalidad", "Asignación", "Fecha exacta de inicio"]
+    }
+  ]
+}

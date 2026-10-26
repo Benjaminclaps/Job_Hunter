@@ -3,7 +3,7 @@ import { ashbyConnector } from "@/connectors/ashby";
 import { greenhouseConnector } from "@/connectors/greenhouse";
 import { leverConnector } from "@/connectors/lever";
 import type { Company } from "@/db/schema";
-import { matchesScanQuery } from "@/services/scanner";
+import { isChileCompatible, matchesScanQuery } from "@/services/scanner";
 
 function company(provider: Company["atsProvider"]): Company {
   return {
@@ -43,5 +43,16 @@ describe("conectores ATS", () => {
     mockJson({ jobs: [{ id: "ashby-1", title: "Business Development Intern", jobUrl: "https://example.com/ashby/1", descriptionPlain: "Descripción", location: "Santiago", isRemote: false, department: "Commercial" }] });
     const [job] = await ashbyConnector.fetchJobs(company("ashby"));
     expect(job).toMatchObject({ externalId: "ashby-1", category: "Commercial", location: "Santiago" });
+  });
+
+  it("filtra ofertas para permitir únicamente vacantes en Chile o compatibles", () => {
+    expect(isChileCompatible({ location: "Santiago, Chile", workplaceMode: "hybrid" })).toBe(true);
+    expect(isChileCompatible({ location: "Las Condes", workplaceMode: "onsite" })).toBe(true);
+    expect(isChileCompatible({ location: "Chile / México", workplaceMode: "remote" })).toBe(true);
+    expect(isChileCompatible({ location: "LATAM", workplaceMode: "remote" })).toBe(true);
+    expect(isChileCompatible({ location: "Madrid", workplaceMode: "onsite" })).toBe(false);
+    expect(isChileCompatible({ location: "Sao Paulo / SP / Brazil", workplaceMode: "hybrid" })).toBe(false);
+    expect(isChileCompatible({ location: "Mexico City (Remote)", workplaceMode: "remote" })).toBe(false);
+    expect(isChileCompatible({ location: "Berlin", workplaceMode: "hybrid" })).toBe(false);
   });
 });

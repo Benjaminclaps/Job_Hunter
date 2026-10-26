@@ -1,0 +1,42 @@
+{
+  "jobId": "3a65b45d-ffaf-4d9b-aa7b-8f8e02acd236",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 83, "evidence": "Es Customer Success y postventa en una empresa tecnológica, con onboarding, retención, reportes y mejora de la experiencia; se alinea parcialmente con el perfil comercial y de clientes." },
+    "learningPotential": { "score": 89, "evidence": "Permite aprender onboarding, soporte de producto, IA aplicada a atención, análisis de patrones y operación de una empresa pequeña." },
+    "experienceCompatibility": { "score": 87, "evidence": "No exige experiencia previa y acepta Ingeniería Comercial; la experiencia con clientes, ventas, comunicación, funnels y herramientas digitales es transferible." },
+    "conditionsAndDuration": { "score": 66, "evidence": "Ofrece jornada y beneficios claros, pero es presencial en Colina y no publica sueldo base ni fecha de inicio." },
+    "careerProjection": { "score": 82, "evidence": "Puede abrir experiencia en Customer Success, onboarding, operaciones y tecnología aplicada, aunque tiene menos foco en Growth que otras opciones." }
+  },
+  "eligibility": "likely",
+  "professionalCategory": "Customer Success / Postventa / IA aplicada / IoT",
+  "strengths": [
+    "No exige experiencia previa",
+    "Acepta Ingeniería Comercial",
+    "Incluye onboarding, reportes, retención y mejora de IA",
+    "Tiene variable mínimo garantizado durante los primeros tres meses"
+  ],
+  "weaknesses": [
+    "Presencialidad en Colina",
+    "Parte del trabajo es soporte técnico por WhatsApp y teléfono",
+    "Menor exposición a estrategia comercial y Growth que Databot o Vambe"
+  ],
+  "missingRequirements": [
+    "Sueldo fijo y monto del variable",
+    "Fecha de inicio",
+    "Tiempo de traslado desde Santiago",
+    "Profundidad del soporte técnico esperado"
+  ],
+  "learningPotential": "Aprenderías Customer Success operativo, onboarding, soporte de producto, reportes de calidad, retención y cómo se entrena una IA de atención al cliente.",
+  "justification": "Es una alternativa realista para entrar a una empresa tecnológica pequeña porque no exige experiencia previa y acepta Ingeniería Comercial. La recomiendo como opción secundaria si Colina y el componente de soporte técnico te acomodan.",
+  "recommendation": "apply",
+  "confidence": 0.88,
+  "unknowns": [
+    "Remuneración total",
+    "Nivel de conocimientos de redes requerido en la práctica",
+    "Fecha de incorporación",
+    "Posibilidad de crecimiento hacia Customer Success más estratégico"
+  ]
+}

@@ -6,9 +6,9 @@ export type DashboardJob = {
   location: string | null;
   workplace_mode: string;
   employment_type: string | null;
-  description: string;
-  requirements: string[];
-  responsibilities: string[];
+  description?: string;
+  requirements?: string[];
+  responsibilities?: string[];
   original_url: string;
   published_at: string | null;
   first_seen_at: string;

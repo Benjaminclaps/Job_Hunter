@@ -1,0 +1,42 @@
+{
+  "jobId": "addc270b-5089-483e-b6c9-ebef3667d9b8",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 78, "evidence": "Tiene Customer Success, onboarding, coordinación de proyectos y relación con clientes, pero el trabajo se enfoca en eventos y ecosistema más que en un producto SaaS." },
+    "learningPotential": { "score": 90, "evidence": "Expone a founders, gerentes, sponsors, proyectos regionales, IA, automatización y operación de eventos con alta responsabilidad en un equipo pequeño." },
+    "experienceCompatibility": { "score": 91, "evidence": "La experiencia comercial, atención a clientes, seguimiento, organización y trabajo con múltiples entregas es transferible; el aviso no exige experiencia previa." },
+    "conditionsAndDuration": { "score": 73, "evidence": "Es remota, de media jornada y remunerada por objetivos, pero no informa monto, duración ni calendario de eventos." },
+    "careerProjection": { "score": 83, "evidence": "Puede abrir camino hacia Customer Success, project operations, partnerships y gestión de cuentas dentro del ecosistema startup." }
+  },
+  "eligibility": "likely",
+  "professionalCategory": "Práctica / Customer Success / Operaciones / Ecosistema Startup",
+  "strengths": [
+    "Equipo pequeño y alta visibilidad del trabajo",
+    "Modalidad remota y media jornada",
+    "Contacto con founders, sponsors y gerentes",
+    "Uso de IA y automatización en proyectos regionales"
+  ],
+  "weaknesses": [
+    "No es un rol de tecnología o SaaS puro",
+    "El pago por objetivos puede ser menos predecible",
+    "Incluye bastante coordinación logística y eventos"
+  ],
+  "missingRequirements": [
+    "Monto y estructura de la remuneración",
+    "Duración y fecha de inicio",
+    "Cantidad de eventos presenciales",
+    "Posibilidad de continuidad"
+  ],
+  "learningPotential": "Aprenderías Customer Success, coordinación de proyectos, gestión de sponsors, operaciones y networking en el ecosistema startup latinoamericano.",
+  "justification": "Es una alternativa interesante si quieres entrar rápido al ecosistema startup y construir red, pero la priorizo por debajo de la práctica comercial porque tiene menos venta B2B y más logística de eventos.",
+  "recommendation": "consider",
+  "confidence": 0.88,
+  "unknowns": [
+    "Remuneración real por objetivos",
+    "Calendario y carga de eventos",
+    "Duración",
+    "Continuidad posterior"
+  ]
+}

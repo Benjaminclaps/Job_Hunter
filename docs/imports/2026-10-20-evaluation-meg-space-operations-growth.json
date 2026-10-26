@@ -1,0 +1,44 @@
+{
+  "jobId": "b4e248b3-af02-4ef4-851c-c9db6dc61c2f",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 91, "evidence": "Mezcla Operations, Growth, seguimiento de oportunidades, research, proyectos y CRM; se conecta con la búsqueda de estrategia, operaciones comerciales y startups." },
+    "learningPotential": { "score": 96, "evidence": "Trabajarías directamente con las fundadoras en una startup muy temprana, con exposición real a construcción de procesos, priorización, proveedores y decisiones operativas." },
+    "experienceCompatibility": { "score": 91, "evidence": "Pide estudiante en práctica, proactividad, orden y autonomía; la experiencia comercial, organización de entregas y uso de herramientas digitales es transferible." },
+    "conditionsAndDuration": { "score": 80, "evidence": "Es remoto, flexible y de tres meses, pero el monto de la asignación aparece sin publicar y no se informa fecha de inicio." },
+    "careerProjection": { "score": 90, "evidence": "Puede abrir camino hacia Operations, Growth, Chief of Staff junior, project operations o desarrollo comercial en startups." }
+  },
+  "eligibility": "likely",
+  "professionalCategory": "Práctica / Operations / Growth / Startup",
+  "strengths": [
+    "Trabajo directo con fundadoras",
+    "100% remoto y libertad de horario",
+    "Responsabilidad real en una startup muy temprana",
+    "Combina Growth con operaciones y CRM"
+  ],
+  "weaknesses": [
+    "La práctica dura solo tres meses",
+    "La remuneración no está informada",
+    "El cargo puede ser muy amplio y poco estructurado",
+    "No queda claro si existe continuidad"
+  ],
+  "missingRequirements": [
+    "Monto de la asignación",
+    "Fecha de inicio",
+    "Dedicación semanal efectiva",
+    "Tipo de startup y producto concreto",
+    "Posibilidad de continuidad"
+  ],
+  "learningPotential": "Aprenderías a construir operaciones, CRM, seguimiento de oportunidades, research y procesos internos directamente con fundadoras en etapa temprana.",
+  "justification": "Es una opción muy interesante por el nivel de autonomía y cercanía con las fundadoras. La dejo como revisar hasta confirmar que la asignación llegue al mínimo de CLP 300.000 y que la dedicación sea compatible con tu disponibilidad.",
+  "recommendation": "review",
+  "confidence": 0.88,
+  "unknowns": [
+    "Monto de la asignación",
+    "Dedicación semanal",
+    "Producto o modelo de negocio",
+    "Fecha de inicio y continuidad"
+  ]
+}

@@ -7,23 +7,25 @@ import { nowIso } from "@/lib/utils";
 import { recordActivity } from "./activity";
 import { DEFAULT_PROFILE_ID, ensureDefaults } from "./defaults";
 
-export function getFullProfile() {
+export function getFullProfile(options: { includeDocumentText?: boolean } = {}) {
   ensureDefaults();
   const { db } = getDatabase();
+  const documentSelection = {
+    id: documents.id,
+    kind: documents.kind,
+    originalName: documents.originalName,
+    mimeType: documents.mimeType,
+    reviewed: documents.reviewed,
+    createdAt: documents.createdAt,
+  };
   return {
     profile: db.select().from(profiles).where(eq(profiles.id, DEFAULT_PROFILE_ID)).get(),
     experiences: db.select().from(experiences).where(eq(experiences.profileId, DEFAULT_PROFILE_ID)).all(),
     skills: db.select().from(skills).where(eq(skills.profileId, DEFAULT_PROFILE_ID)).all(),
     preferences: db.select().from(preferences).where(eq(preferences.profileId, DEFAULT_PROFILE_ID)).all(),
-    documents: db.select({
-      id: documents.id,
-      kind: documents.kind,
-      originalName: documents.originalName,
-      mimeType: documents.mimeType,
-      reviewed: documents.reviewed,
-      createdAt: documents.createdAt,
-      extractedText: documents.extractedText,
-    }).from(documents).where(eq(documents.profileId, DEFAULT_PROFILE_ID)).all(),
+    documents: options.includeDocumentText === false
+      ? db.select(documentSelection).from(documents).where(eq(documents.profileId, DEFAULT_PROFILE_ID)).all()
+      : db.select({ ...documentSelection, extractedText: documents.extractedText }).from(documents).where(eq(documents.profileId, DEFAULT_PROFILE_ID)).all(),
   };
 }
 

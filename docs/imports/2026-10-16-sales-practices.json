@@ -1,0 +1,686 @@
+{
+  "searchedAt": "2026-10-16",
+  "sources": ["FirstJob", "LinkedIn public listings", "Trabajando.cl", "Get on Board"],
+  "baseline": {
+    "databaseTotal": 467,
+    "newJobs": 70,
+    "pendingJobs": 55,
+    "note": "Counts from the local SQLite-backed app before this import; newJobs/pendingJobs are app-wide, not limited to internships."
+  },
+  "importResult": {
+    "requested": 41,
+    "insertedAsNew": 41,
+    "updated": 0,
+    "databaseTotalAfterImport": 508,
+    "newJobsAfterImport": 111,
+    "pendingJobsAfterImport": 96,
+    "offersWithEvaluation": 0,
+    "applicationsSent": 0
+  },
+  "target": 40,
+  "rules": [
+    "Only public listing pages were reviewed; no LinkedIn login session, CAPTCHA, or automated application was used.",
+    "Relative publication dates were not converted into timestamps; publishedAt is omitted.",
+    "Pay, start date, duration, and work mode are marked unknown wherever the public listing did not specify them.",
+    "For internships, CLP 300000/month is the stated minimum; unknown stipend amounts require confirmation before prioritizing.",
+    "Full-time availability begins 2026-12-20; listings without a start date require confirming that start date."
+  ],
+  "offers": [
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; la página mostraba opción de postular. Confirmar nuevamente vigencia y fecha de inicio.",
+      "job": {
+        "companyName": "Scotiabank",
+        "title": "Programa ScotiaPrácticas Verano 2027",
+        "originalUrl": "https://api.firstjob.me/oferta/56736/programa-scotiapracticas-verano-2027",
+        "description": "Programa de práctica híbrido en la Región Metropolitana, con inicio publicado en enero de 2027, jornada de 39 horas semanales y asignación para colación (monto no informado). La publicación habla de proyectos reales y mentoría, pero no asigna un área o proyecto específico.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional / programa de verano",
+        "category": "Práctica / Comercial y negocios",
+        "requirements": ["Ingeniería Comercial, Administración, Ingeniería Civil Industrial, Informática, Estadística, Matemáticas o carreras afines."],
+        "responsibilities": ["Participar en proyectos reales; el área específica depende de la asignación del programa."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; opción de postular visible. No se publican monto de asignación, inicio ni duración.",
+      "job": {
+        "companyName": "Transbank S.A.",
+        "title": "Práctica Optimización Procesos Gestión Comercial",
+        "originalUrl": "https://api.firstjob.me/oferta/57198/programa-de-practicas-transbank-2026-2027",
+        "description": "Práctica híbrida para analizar procesos de gestión comercial de clientes estratégicos y proponer mejoras o automatizaciones con apoyo de IA. No se informa inicio, duración ni asignación; confirmar que la práctica y su pago cumplan tus condiciones.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional",
+        "category": "Operaciones Comerciales / Automatización",
+        "requirements": ["Estudiante de Ingeniería Comercial, Ingeniería Civil Industrial o afín.", "Excel avanzado, Power BI y manejo de datos; Bizagi deseable."],
+        "responsibilities": ["Analizar procesos comerciales de clientes estratégicos.", "Identificar oportunidades de mejora y automatización con IA."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; opción de postular visible. Monto de asignación publicado: CLP 300000.",
+      "job": {
+        "companyName": "Grünenthal",
+        "title": "Práctica Profesional Área Comercial - Sales Management",
+        "originalUrl": "https://api.firstjob.me/oferta/56767/practica-profesional-area-comercial-sales-management",
+        "description": "Práctica híbrida de Sales Management con segmentación de clientes y portafolio, tablero de KPIs comerciales, forecasting para KAM y análisis Gross-to-Net. Asignación publicada: CLP 300000, más desayuno y almuerzo. Inicio y duración no informados; confirmar disponibilidad desde 2026-12-20.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional",
+        "category": "Ventas / Sales Management / KAM",
+        "requirements": ["Estudiante de Ingeniería Civil Industrial o carrera afín.", "Interés por desarrollarse en el área comercial.", "Excel avanzado y visualización de datos son deseables; Power BI es ideal."],
+        "responsibilities": ["Segmentar clientes y portafolio por ventas y margen.", "Diseñar un panel de indicadores comerciales.", "Definir y ejecutar una metodología de forecasting para KAM.", "Apoyar el análisis automatizado Gross-to-Net."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; opción de postular visible. La fecha de inicio se limita a diciembre, sin día exacto.",
+      "job": {
+        "companyName": "Enex",
+        "title": "Prácticas Profesionales Enex Diciembre 2026",
+        "originalUrl": "https://api.firstjob.me/oferta/57406/practicas-profesionales-enex-diciembre-2026",
+        "description": "Programa presencial con áreas de práctica que incluyen Comercial, Ventas y Marketing. La publicación pide disponibilidad a partir de diciembre de 2026, pero no informa día de inicio, duración ni asignación. Como tu disponibilidad comienza el 20-12-2026, confirmar que el equipo acepte esa fecha y consultar el monto antes de priorizar.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional; áreas múltiples",
+        "category": "Ventas / Comercial / Marketing",
+        "requirements": ["Ser estudiante de educación superior y estar habilitado para práctica profesional.", "Seguro de práctica vigente.", "Disponibilidad a partir de diciembre de 2026; el día exacto debe confirmarse."],
+        "responsibilities": ["Participar en proyectos de la compañía; funciones específicas dependen del área asignada."]
+      }
+    },
+    {
+      "platform": "FirstJob",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; opción de postular visible. Consultar inicio, asignación y confirmar modalidad/duración.",
+      "job": {
+        "companyName": "BNP Paribas Cardif",
+        "title": "Práctica profesional Negocios Alianza Scotiabank",
+        "originalUrl": "https://api.firstjob.me/oferta/57094/practica-profesional-negocios-alianza-scotiabank",
+        "description": "Práctica híbrida vinculada a la alianza de negocios con Scotiabank. La ficha describe seguimiento de KPIs, coordinación comercial con el socio, campañas y análisis de mercado; duración indicada de seis meses. Se menciona bono de práctica, sin monto publicado. Confirmar inicio compatible con 2026-12-20.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional; seis meses",
+        "category": "Desarrollo Comercial / Alianzas",
+        "requirements": ["Ingeniería Comercial o carrera afín; revisar la ficha para requisitos académicos completos.", "La modalidad descrita contempla dos días presenciales por semana."],
+        "responsibilities": ["Apoyar el seguimiento de indicadores de negocio.", "Coordinar iniciativas comerciales y campañas con el socio.", "Preparar análisis de mercado y resultados."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; la página mostraba Solicitar. Inicio, duración, asignación y modalidad no publicados.",
+      "job": {
+        "companyName": "Banco Falabella",
+        "title": "Práctica / Planificación y Desarrollo de Negocios",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-planificaci%C3%B3n-y-desarrollo-de-negocios-at-banco-falabella-4477854372",
+        "description": "Práctica de planificación/desarrollo de negocios: análisis financiero y de mercado, casos de crecimiento regional, competidores y presentaciones para decisiones de negocio. La publicación no indica inicio, duración ni asignación; validar también modalidad y jornada.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Estrategia / Desarrollo de Negocios",
+        "requirements": ["Estudiante de Ingeniería Comercial o carrera afín, en años finales.", "Excel avanzado e inglés intermedio/avanzado.", "Confirmar seguro escolar y fecha de inicio."],
+        "responsibilities": ["Analizar oportunidades de crecimiento y mercado financiero.", "Comparar competidores.", "Preparar análisis y presentaciones ejecutivas."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; página con Solicitar. No informa pago, inicio ni duración.",
+      "job": {
+        "companyName": "Sodimac",
+        "title": "Práctica Profesional Área Comercial",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-%C3%A1rea-comercial-at-sodimac-4477818748",
+        "description": "Práctica comercial en categorías de retail: seguimiento de precios, mix, datos y automatización, con exposición a iniciativas de IA y visitas a tiendas. No se publican pago, fecha de inicio ni duración; confirmar condiciones y modalidad.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Comercial / Retail / Growth",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil Industrial.", "Excel intermedio/avanzado según el área; validar el requisito exacto en la publicación."],
+        "responsibilities": ["Apoyar análisis de categorías, precios y mix.", "Usar datos y automatización para apoyar decisiones comerciales.", "Participar en visitas a tiendas."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; opción de postular visible. La publicación describe cinco a seis meses; pago e inicio no informados.",
+      "job": {
+        "companyName": "Sodimac",
+        "title": "Práctica Profesional Jefe de Línea",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-jefe-de-l%C3%ADnea-at-sodimac-4457361740",
+        "description": "Práctica en categorías de productos, apoyando ventas, KPIs, proveedores e inventario. Duración publicada de cinco a seis meses. No se informa monto de asignación ni fecha de inicio; confirmar que se pueda comenzar desde 2026-12-20.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional; cinco a seis meses",
+        "category": "Ventas / Categorías / Retail",
+        "requirements": ["Ingeniería Comercial o carrera afín.", "Excel intermedio según la publicación.", "Confirmar monto de asignación e inicio."],
+        "responsibilities": ["Apoyar seguimiento de ventas y KPIs de categoría.", "Coordinar información de proveedores e inventario."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; opción de postular visible. El aviso indica remuneración, sin monto publicado.",
+      "job": {
+        "companyName": "Sodimac",
+        "title": "Práctica Comercial Categoría Aire Libre",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-comercial-categor%C3%ADa-aire-libre-at-sodimac-4467205079",
+        "description": "Práctica comercial de categoría con análisis de precios y ventas, negociación, inventario y apoyo al enrolamiento de vendedores. Duración publicada de cinco a seis meses y práctica remunerada; monto e inicio no informados.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional; cinco a seis meses",
+        "category": "Ventas / Comercial / Retail",
+        "requirements": ["Carrera y nivel académico deben confirmarse en la ficha.", "Consultar monto de la asignación antes de priorizar."],
+        "responsibilities": ["Apoyar análisis y negociación de categoría.", "Dar seguimiento a ventas e inventario.", "Apoyar incorporación de vendedores."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aparecía opción Solicitar en la ficha revisada anteriormente. Revalidar estado antes de postular.",
+      "job": {
+        "companyName": "Sodimac",
+        "title": "Práctica Profesional Área Comercial — Gerencia Terminaciones",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-profesional-%C3%A1rea-comercial-gerencia-terminaciones-at-sodimac-4446872487",
+        "description": "Práctica adscrita a la Gerencia Comercial de Terminaciones en Sodimac. El título confirma el área, pero la ficha pública consultada no permitió verificar con seguridad funciones, duración, pago ni fecha de inicio; revisar esos puntos directamente antes de priorizar.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Comercial / Retail",
+        "requirements": ["Revisar la ficha enlazada para confirmar carrera, nivel académico y requisitos."],
+        "responsibilities": ["Funciones específicas no verificadas; consultar la ficha antes de evaluar."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; opción Solicitar visible en la lectura previa. Confirmar fecha de inicio y monto.",
+      "job": {
+        "companyName": "Grupo Falabella",
+        "title": "Práctica Marketplace Internacional",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-marketplace-internacional-at-grupo-falabella-4475579846",
+        "description": "Práctica vinculada a marketplace internacional, con exposición a vendedores, campañas y gestión de cuentas/KAM. La publicación menciona asignación mensual, pero no el monto; inicio, duración y modalidad deben confirmarse.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Marketplace / Ventas / E-commerce",
+        "requirements": ["Confirmar carreras aceptadas, fecha de inicio y monto de asignación en la ficha."],
+        "responsibilities": ["Apoyar gestión de vendedores y campañas de marketplace.", "Colaborar con seguimiento de cuentas y métricas comerciales."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; la publicación mostraba Solicitar. Remunerada; monto e inicio no publicados.",
+      "job": {
+        "companyName": "Falabella",
+        "title": "Práctica Negocios Perfumería",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-negocios-perfumer%C3%ADa-at-falabella-4446383156",
+        "description": "Práctica híbrida en negocios de perfumería, con apoyo a ventas, mix de productos y campañas. La publicación indica práctica remunerada y al menos cuatro meses, sin informar monto ni fecha de inicio.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional; cuatro meses o más",
+        "category": "Ventas / Retail / Marketing",
+        "requirements": ["Confirmar carrera aceptada, inicio y monto de asignación."],
+        "responsibilities": ["Apoyar análisis de ventas y mix de productos.", "Colaborar en campañas comerciales."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Página pública revisada el 2026-10-16; Solicitar visible. Empresa declara capacitación y comisiones; sueldo base no publicado.",
+      "job": {
+        "companyName": "GeoVictoria",
+        "title": "SDR (Sales Development Representative)",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/sdr-sales-development-representative-at-geovictoria-4468291028",
+        "description": "Puesto comercial de entrada para generar leads de software SaaS mediante prospección y llamadas en frío. La empresa indica que capacita a la persona y ofrece comisiones sin límite, pero no publica el sueldo base ni la modalidad.",
+        "location": "Gran Santiago, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Jornada completa; SDR",
+        "category": "Ventas B2B / SaaS / SDR",
+        "requirements": ["La empresa señala que no exige experiencia y que entrega capacitación.", "Confirmar sueldo base, metas, comisiones y fecha de incorporación."],
+        "responsibilities": ["Contactar prospectos y generar oportunidades.", "Explicar la plataforma SaaS y calificar necesidades."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; Solicitar visible y no aparecía aviso de cierre. Requisitos indican uno a dos años de experiencia.",
+      "job": {
+        "companyName": "Rindegastos",
+        "title": "SDR Outbound",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/sdr-outbound-at-rindegastos-4472627437",
+        "description": "Puesto híbrido de prospección outbound B2B para generar reuniones y oportunidades comerciales. La publicación pide experiencia previa; sueldo, fecha de ingreso y detalle de compensación no publicados. Considerar como opción exigente por el requisito de experiencia.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Jornada completa; SDR outbound",
+        "category": "Ventas B2B / SaaS / SDR",
+        "requirements": ["La ficha solicita alrededor de uno a dos años en prospección/ventas SDR.", "Confirmar sueldo y modalidad exacta con la empresa."],
+        "responsibilities": ["Prospectar clientes B2B y generar reuniones.", "Gestionar el pipeline de prospección."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Página pública revisada el 2026-10-16; Solicitar visible. Adecco no identifica al cliente final en el anuncio.",
+      "job": {
+        "companyName": "Adecco (cliente final no informado)",
+        "title": "Sales Development Representative",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/sales-development-representative-at-adecco-4479018221",
+        "description": "Proceso de selección de Adecco para un cargo SDR en Las Condes. El aviso pide experiencia de prospección/ventas; no indica el cliente final ni el sueldo. Antes de avanzar, confirmar empresa contratante, producto, esquema variable, fecha de inicio y trabajo híbrido/presencial.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Jornada completa; SDR",
+        "category": "Ventas B2B / SDR",
+        "requirements": ["Título/carrera afín y al menos un año de prospección o ventas según el anuncio.", "Confirmar la empresa cliente y los requisitos completos."],
+        "responsibilities": ["Prospectar y calificar oportunidades comerciales; detalles dependen del cliente final no identificado."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública leída el 2026-10-16; el aviso mostraba actividad de postulaciones. Requiere confirmar experiencia y sueldo.",
+      "job": {
+        "companyName": "MAS Analytics",
+        "title": "Sales Development Representative",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/sales-development-representative-at-mas-analytics-4437697553",
+        "description": "Cargo híbrido de prospección outbound B2B para una consultora de datos e IA. Diseña y mejora procesos, campañas, bases y mensajes con CRM, herramientas de prospección y automatización. La ficha menciona uno a tres años en ventas/prospección/growth, aunque LinkedIn muestra nivel sin experiencia; confirmar el criterio real y la renta.",
+        "location": "Área metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Jornada completa; SDR",
+        "category": "Ventas B2B / Growth / Datos e IA",
+        "requirements": ["Interés en ventas B2B, tecnología e innovación.", "Experiencia deseable en prospección, ventas, growth o marketing; el anuncio muestra cifras distintas para antigüedad, confirmar.", "Manejo de herramientas CRM/prospección es deseable, no afirmar herramientas no declaradas."],
+        "responsibilities": ["Diseñar y optimizar prospección outbound B2B.", "Investigar cuentas e industrias y personalizar mensajes.", "Analizar resultados y automatizar tareas repetitivas."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Página pública revisada el 2026-10-16; Solicitar visible. Cargo trainee y condiciones salariales requieren confirmación.",
+      "job": {
+        "companyName": "Banpro Factoring Chile",
+        "title": "Ejecutivo(a) Comercial Trainee — Banpro Factoring",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/ejecutivo-a-comercial-trainee-banpro-factoring-at-banpro-factoring-chile-4453355511",
+        "description": "Cargo trainee de ventas financieras a empresas, con prospección, negociación y cierre de clientes PyME. La publicación menciona sueldo fijo más comisión, sin monto; jornada presencial en Las Condes. El aviso pide perfil de recién titulado: confirmar si aceptan estudiante de último año y cuándo esperan que empiece.",
+        "location": "Gran Santiago, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Jornada completa; trainee",
+        "category": "Ventas B2B / Servicios Financieros",
+        "requirements": ["Perfil de recién titulado según el anuncio; confirmar si aceptan estudiante de etapa final.", "Confirmar sueldo fijo, comisión, cartera y fecha de inicio."],
+        "responsibilities": ["Prospectar empresas PyME.", "Presentar soluciones de factoring, negociar y cerrar."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Página pública revisada el 2026-10-16; Solicitar visible. Práctica remunerada, el monto no aparece en el resumen público.",
+      "job": {
+        "companyName": "XTB online investing",
+        "title": "Sales Intern",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/sales-intern-at-xtb-online-investing-4461047861",
+        "description": "Práctica de ventas en una empresa financiera regulada. La ficha ofrece asignación y tarjeta de alimentación; monto, fecha de inicio, duración y modalidad no se especifican en la información pública revisada.",
+        "location": "Gran Santiago, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional; jornada completa",
+        "category": "Ventas / Servicios Financieros",
+        "requirements": ["Estudiante de cuarto/quinto año de Ingeniería Comercial, Administración, Economía, Finanzas o carrera similar.", "Confirmar inicio, duración y monto de asignación."],
+        "responsibilities": ["Apoyar actividades comerciales y desarrollar habilidades de ventas en servicios financieros."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; la página mostraba opción de solicitar. Validar monto de asignación y requisito académico.",
+      "job": {
+        "companyName": "Betterfly",
+        "title": "Business Strategy Intern",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/business-strategy-intern-at-betterfly-4464152981",
+        "description": "Práctica híbrida en estrategia y desarrollo de negocios: pricing, economía unitaria, análisis de mercado, socios y negociaciones. Pide estudiante de último año, Excel avanzado e inglés; asignación, fecha de inicio y duración no publicados.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional",
+        "category": "Estrategia / Desarrollo de Negocios / Growth",
+        "requirements": ["Estudiante de último año de Ingeniería Comercial, Ingeniería Civil Industrial o carrera afín.", "Excel avanzado e inglés.", "Confirmar asignación, duración e inicio."],
+        "responsibilities": ["Analizar pricing y economía unitaria.", "Investigar mercado y apoyar negociaciones con socios."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; Solicitar visible. El título indica experiencia previa de uno a dos años; renta no publicada.",
+      "job": {
+        "companyName": "Ingram Micro",
+        "title": "Inside Sales — Ventas Valor",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/inside-sales-ventas-valor-at-ingram-micro-4462972980",
+        "description": "Cargo de ventas internas B2B en tecnología, desde el primer contacto hasta apoyar el cierre. El anuncio solicita experiencia comercial previa de uno a dos años. Sueldo, modalidad y fecha de incorporación no publicados; revisar ajuste del requisito antes de priorizar.",
+        "location": "Gran Santiago, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Jornada completa",
+        "category": "Inside Sales / Tecnología B2B",
+        "requirements": ["Uno a dos años de experiencia comercial según el aviso.", "Confirmar manejo de cartera, variable, modalidad y sueldo."],
+        "responsibilities": ["Gestionar oportunidades y ventas de soluciones de tecnología.", "Acompañar el ciclo de venta desde contacto hasta cierre."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aparecía Solicitar en la consulta previa. Confirmar vigencia, carrera aceptada e inicio.",
+      "job": {
+        "companyName": "Reckitt",
+        "title": "Sales Intern",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/sales-intern-at-reckitt-4443999404",
+        "description": "Práctica de ventas con reportería comercial, saldos de clientes, promociones y análisis de ventas. La página no permitió confirmar asignación, duración, fecha de inicio ni todas las carreras admisibles; verificar directamente antes de priorizar.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Ventas / Consumo masivo",
+        "requirements": ["Revisar la ficha para confirmar carrera, nivel de estudios y dominio de herramientas requerido.", "Consultar asignación, modalidad y fecha de inicio."],
+        "responsibilities": ["Preparar reportes de ventas y seguimiento comercial.", "Apoyar análisis de promociones y cuentas de clientes."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Página pública revisada el 2026-10-16; Solicitar visible y publicada recientemente. Confirmar ubicación interna, monto, inicio y duración.",
+      "job": {
+        "companyName": "IBM",
+        "title": "Future Club Chile 2027 | IBM Global Sales",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/future-club-chile-2027-ibm-global-sales-at-ibm-4475263203",
+        "description": "Programa de internship para estudiantes activos, con experiencia en proyectos y colaboración con equipos globales; la ficha está adscrita a IBM Global Sales, aunque las tareas descritas son de estudiante generalista y no detallan una cuota o función de ventas específica. No informa asignación, modalidad, inicio ni duración.",
+        "location": "Gran Santiago, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica / internship; jornada completa",
+        "category": "Práctica / Tecnología / Negocios",
+        "requirements": ["Estudiante universitario activo en Ingeniería Industrial, Business Analytics, Logística, Sistemas, Computación, Informática o carreras afines.", "La carrera de Ingeniería Comercial puede requerir confirmación de equivalencia.", "Confirmar asignación y condiciones de inicio."],
+        "responsibilities": ["Colaborar en proyectos y tareas de IBM.", "Trabajar con equipos multidisciplinarios y aprender de profesionales."]
+      }
+    },
+    {
+      "platform": "LinkedIn",
+      "verificationNote": "Ficha revisada el 2026-10-16; opción de solicitar indicada en la página consultada anteriormente. Revalidar porque la ficha tiene antigüedad de varias semanas.",
+      "job": {
+        "companyName": "PUMA Group",
+        "title": "Práctica Sales Operations",
+        "originalUrl": "https://cl.linkedin.com/jobs/view/pr%C3%A1ctica-sales-operations-at-puma-group-4447835156",
+        "description": "Práctica vinculada a operaciones de ventas, con apoyo a compras, análisis y reportería comercial. La ficha consultada no permite confirmar el monto de asignación, duración ni fecha de inicio; verificar vigencia y funciones actuales directamente.",
+        "location": "Gran Santiago, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Sales Operations / Retail",
+        "requirements": ["Confirmar carrera, Excel/herramientas, duración y fecha de inicio en la ficha.", "Consultar monto de asignación antes de priorizar."],
+        "responsibilities": ["Apoyar reportería y tareas de operaciones comerciales."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente en el portal. El término del aviso no confirma fecha de inicio ni monto.",
+      "job": {
+        "companyName": "Forum Servicios Financieros",
+        "title": "Práctica Ejecutivo Comercial — Santiago",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6133697-practica-ejecutivo-comercial-santiago",
+        "description": "Práctica en financiamiento automotriz, con asesoría a vendedores, seguimiento de leads, campañas y KPIs. La ficha describe un bono de práctica sin monto y un mínimo de 320 horas; confirmar fecha de inicio y modalidad.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional; mínimo 320 horas",
+        "category": "Ventas / Servicios Financieros",
+        "requirements": ["Estudiante habilitado para práctica; confirmar carrera y seguro escolar.", "Consultar bono, duración e inicio desde 2026-12-20."],
+        "responsibilities": ["Apoyar venta de financiamiento automotriz.", "Asesorar a vendedores y realizar seguimiento de leads, campañas e indicadores."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente en el portal. Consultar asignación e inicio.",
+      "job": {
+        "companyName": "Gildemeister",
+        "title": "Práctica Área Comercial",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6132909-practica-area-comercial",
+        "description": "Práctica de análisis comercial en automotriz: precios, competidores, stock y planificación de ventas. No se publican monto de asignación, duración ni fecha de inicio.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional",
+        "category": "Ventas / Inteligencia Comercial",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil Industrial.", "Excel intermedio.", "Confirmar asignación, duración y fecha de inicio."],
+        "responsibilities": ["Analizar precios y competencia.", "Dar seguimiento a stock y planificación de ventas."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; fecha de cierre del aviso cercana. El sueldo de práctica publicado cumple el mínimo indicado.",
+      "job": {
+        "companyName": "Banco Internacional",
+        "title": "Práctica Profesional Área Comercial — Ventas / Growth",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6128391-practica-profesional-area-comercial-ventas-growth",
+        "description": "Práctica en funnels comerciales B2B/B2C, prospección y growth. Publica CLP 300000 brutos mensuales más casino. La publicación no informa día de inicio; confirmar que permita comenzar desde 2026-12-20 y revisar duración.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Ventas / Growth / Servicios Financieros",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil Industrial.", "Excel avanzado.", "Confirmar fecha de inicio, jornada y duración."],
+        "responsibilities": ["Apoyar funnel comercial y gestión de ventas.", "Participar en prospección y análisis de growth B2B/B2C."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente y modalidad híbrida indicada. Pago e inicio sin publicar.",
+      "job": {
+        "companyName": "Casaideas",
+        "title": "Práctica Ingeniería Comercial — Control de Gestión y Proyectos Corporativos",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6132646-practica-ingenieria-comercial-control-de-gestion-y-proyectos-corporativos",
+        "description": "Práctica híbrida en proyectos corporativos, modelos de precios de transferencia, casos de negocio, evaluación económica y PMO. Asignación y fecha de inicio no publicadas; confirmar ambos y la duración.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional",
+        "category": "Estrategia / Control de Gestión / Proyectos",
+        "requirements": ["Estudiante de Ingeniería Comercial en etapa final.", "Confirmar seguro escolar, duración y fecha de inicio."],
+        "responsibilities": ["Apoyar modelos y casos de negocio.", "Participar en evaluación económica de iniciativas y actividades de PMO."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública abierta el 2026-10-16; convocatoria con 100 vacantes y opción Postular, recepción de CV hasta 2026-11-30.",
+      "job": {
+        "companyName": "Komatsu Cummins",
+        "title": "Postulaciones Prácticas Profesionales Período 2026-2027",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6120204-postulaciones-practicas-profesionales-periodo-2026-2027",
+        "description": "Convocatoria amplia para prácticas en distintas áreas y ubicaciones. Acepta estudiantes de formación técnica y universitaria, pero exige estar egresado al ingresar; no asigna una función comercial específica ni publica monto, duración o fecha de inicio. La disponibilidad de áreas debe confirmarse al postular.",
+        "location": "Quilicura, Región Metropolitana de Santiago, Chile; vacantes también a nivel nacional",
+        "workplaceMode": "unknown",
+        "employmentType": "Convocatoria de prácticas profesionales 2026-2027",
+        "category": "Práctica / Programa de talento",
+        "requirements": ["Estar egresado de carrera técnica o universitaria al ingresar.", "Seguro escolar, cédula vigente y ser mayor de edad.", "Disponibilidad de ingreso entre octubre y febrero.", "Confirmar áreas disponibles, monto, duración y fecha de inicio."],
+        "responsibilities": ["Participar en proyectos y desafíos prácticos; funciones dependen del área asignada."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso publicado recientemente y vigente. Tiene una brecha de herramientas que conviene validar.",
+      "job": {
+        "companyName": "ENAP",
+        "title": "Práctica Gerencia Comercial ENAP",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6135089-practica-gerencia-comercial-enap",
+        "description": "Práctica comercial con bases de ventas, análisis de desviaciones y uso de SQL/Power BI. La asignación publicada equivale a 4 UTM más almuerzo; duración mínima de tres meses. Presencial en Las Condes. Inicio no informado. El perfil actual no declara SQL ni Power BI, por lo que conviene confirmar si son excluyentes.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional; mínimo tres meses",
+        "category": "Ventas / Análisis Comercial / Energía",
+        "requirements": ["Ingeniería Comercial o Ingeniería Civil Industrial.", "SQL y Power BI aparecen en las funciones/requisitos publicados; confirmar nivel mínimo.", "Consultar valor equivalente de 4 UTM a la fecha de práctica y fecha de inicio."],
+        "responsibilities": ["Analizar bases y resultados de ventas.", "Revisar desviaciones comerciales con herramientas de datos."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso reciente y vigente. Bono sin monto publicado.",
+      "job": {
+        "companyName": "SALFA",
+        "title": "Práctica Profesional — Automatización y Procesos",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6135633-practica-profesional-ingenieria-en-informatica-control-de-gestion-industrial-comercial",
+        "description": "Práctica presencial de automatización, control y mejora de procesos en el área asociada. La ficha acepta Ingeniería Comercial entre varias carreras y ofrece bonificación sin publicar monto. Inicio y duración no especificados; confirmar compatibilidad y asignación.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional",
+        "category": "Operaciones / Automatización / Mejora Continua",
+        "requirements": ["Ingeniería Comercial, Civil Industrial, Informática o Control de Gestión, entre otras.", "Excel intermedio.", "Confirmar monto de bonificación y fecha de inicio."],
+        "responsibilities": ["Apoyar automatización y control de procesos.", "Identificar oportunidades de mejora operativa."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública abierta el 2026-10-16; publicación de hace tres días, con Postula fácil y cierre en 57 días.",
+      "job": {
+        "companyName": "CCU",
+        "title": "Práctica Marketing Bilz y Pap - Las Condes",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6135619-practica-marketing-bilz-y-pap-las-condes",
+        "description": "Práctica presencial de seis meses en Marketing para Bilz y Pap, con seguimiento de ventas, stock y prioridades comerciales, activaciones, concursos y merchandising. Inicio publicado para febrero de 2027. No se informa monto de asignación; confirmar que cumpla el mínimo declarado antes de priorizar.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional; seis meses",
+        "category": "Marketing / Ventas / Consumo masivo",
+        "requirements": ["Estudiante de Ingeniería Comercial, Ingeniería Civil o afín.", "Seguro escolar vigente.", "Microsoft Office.", "Disponibilidad presencial por seis meses desde febrero de 2027.", "Monto de asignación no publicado; confirmar antes de priorizar."],
+        "responsibilities": ["Apoyar concursos y activaciones de redes sociales.", "Seguir gastos y reportes de campañas.", "Monitorear ventas, stock y focos comerciales.", "Apoyar eventos y compra/seguimiento de merchandising."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente. Pago e inicio deben confirmarse.",
+      "job": {
+        "companyName": "VSPT Wine Group",
+        "title": "Práctica Profesional Marketing Exportaciones",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6126670-practica-profesional-marketing-exportaciones",
+        "description": "Práctica en marketing para mercados de exportación de un grupo vitivinícola con presencia internacional. No se publican monto de asignación, fecha de inicio ni duración; revisar funciones exactas y modalidad en la ficha.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Marketing / Negocios Internacionales",
+        "requirements": ["Confirmar carrera aceptada, nivel de inglés, inicio, duración y asignación."],
+        "responsibilities": ["Apoyar iniciativas de marketing vinculadas a exportaciones; tareas específicas deben confirmarse en la ficha."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente al momento de la búsqueda. Confirmar inicio y asignación.",
+      "job": {
+        "companyName": "VSPT Wine Group",
+        "title": "Práctica Profesional Marketing Operations",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6120239--practica-profesional-marketing-operations",
+        "description": "Práctica de operaciones de marketing con datos, dashboards y seguimiento de procesos entre marketing y ventas. No se publican monto de asignación, fecha de inicio ni duración; el aviso cerraba en fecha próxima, revalidar que siga aceptando postulaciones.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Marketing Operations / Sales Operations",
+        "requirements": ["Confirmar carrera, Excel/herramientas, asignación y fecha de inicio."],
+        "responsibilities": ["Apoyar datos y dashboards de marketing.", "Dar seguimiento a procesos e iniciativas coordinadas con ventas."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso visible y vigente. Asignación descrita como remunerada, sin monto.",
+      "job": {
+        "companyName": "HDI Seguros",
+        "title": "Práctica Proyectos Comerciales",
+        "originalUrl": "https://www.trabajando.cl/trabajo/5912504-practica-proyectos-comerciales",
+        "description": "Práctica híbrida en Las Condes para proyectos comerciales, con validación de datos y apoyo a liquidaciones de corredores. La ficha indica práctica remunerada, sin monto publicado; inicio y duración no confirmados.",
+        "location": "Las Condes, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "hybrid",
+        "employmentType": "Práctica profesional",
+        "category": "Proyectos Comerciales / Seguros",
+        "requirements": ["Confirmar carrera, monto, duración y fecha de inicio."],
+        "responsibilities": ["Apoyar proyectos del área comercial.", "Validar datos y colaborar con liquidaciones de corredores."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente. Consultar monto y fecha de inicio.",
+      "job": {
+        "companyName": "SKC",
+        "title": "Práctica Profesional Ingeniería Comercial — Santiago",
+        "originalUrl": "https://www.trabajando.cl/trabajo/5894933-practica-profesional-ingenieria-comercial-santiago",
+        "description": "Práctica en área comercial de maquinaria y servicios técnicos, con exposición a arriendo y negocio digital. Se mencionan bono, casino y bus de acercamiento, sin monto del bono. Duración e inicio deben confirmarse.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Práctica profesional",
+        "category": "Ventas / Arriendo / Servicios B2B",
+        "requirements": ["Ingeniería Comercial; confirmar año de estudio y seguro escolar.", "Consultar monto, duración y fecha de inicio."],
+        "responsibilities": ["Apoyar gestión comercial de arriendo y servicios.", "Colaborar con iniciativas de negocio digital."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente. No se especifican asignación ni fecha de inicio.",
+      "job": {
+        "companyName": "Bupa Chile",
+        "title": "Práctica Profesional Área Marketing",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6095509-practica-profesional-area-marketing",
+        "description": "Práctica presencial en marketing de servicios de salud en La Florida. La publicación consultada no informa monto de asignación, duración ni inicio; confirmar esos puntos y la carrera aceptada.",
+        "location": "La Florida, Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Práctica profesional",
+        "category": "Marketing / Servicios de Salud",
+        "requirements": ["Confirmar carrera aceptada y requisito de práctica curricular.", "Consultar monto de asignación, duración e inicio."],
+        "responsibilities": ["Apoyar actividades del área de marketing; funciones específicas a confirmar en la ficha."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente. La información salarial y el inicio no están publicados.",
+      "job": {
+        "companyName": "Chiledeudas (según aviso)",
+        "title": "Ejecutivo Comercial",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6133263-ejecutivo-comercial",
+        "description": "Cargo comercial en servicios de asesoría financiera y deudas. El aviso no permite confirmar sueldo, esquema variable, modalidad, requisitos de experiencia ni fecha de inicio; comprobar condiciones y alcance del producto antes de priorizar.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "unknown",
+        "employmentType": "Jornada completa; Ejecutivo Comercial",
+        "category": "Ventas / Servicios Financieros",
+        "requirements": ["Revisar requisitos de experiencia y esquema de remuneración en la ficha."],
+        "responsibilities": ["Prospectar y asesorar potenciales clientes sobre servicios financieros, según el aviso."]
+      }
+    },
+    {
+      "platform": "Trabajando.cl",
+      "verificationNote": "Ficha pública revisada el 2026-10-16; aviso vigente. Cargo de prospección/terreno y remuneración variable sin monto garantizado en la información consultada.",
+      "job": {
+        "companyName": "AFP PlanVital",
+        "title": "Ejecutivo Previsional — Región Metropolitana",
+        "originalUrl": "https://www.trabajando.cl/trabajo/6131335-ejecutivo-previsional-region-metropolitana",
+        "description": "Cargo de ventas en terreno para asesorar y captar afiliados previsionales. La ficha menciona incentivos por desempeño, pero no permite confirmar sueldo base ni ingreso variable; fecha de inicio y modalidad de contrato deben revisarse antes de priorizar.",
+        "location": "Región Metropolitana de Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Jornada completa; ventas en terreno",
+        "category": "Ventas / Servicios Financieros",
+        "requirements": ["La publicación acepta formación escolar; confirmar requisitos comerciales y modalidad de remuneración.", "Consultar sueldo base, comisiones y fecha de inicio."],
+        "responsibilities": ["Prospectar y captar potenciales afiliados.", "Asesorar sobre alternativas previsionales."]
+      }
+    },
+    {
+      "platform": "Get on Board",
+      "verificationNote": "Ficha pública consultada el 2026-10-16, con fecha de publicación 2026-10-16 y opción Apply activa.",
+      "job": {
+        "companyName": "BSALE",
+        "title": "Sales Development Representative Inbound",
+        "originalUrl": "https://www.getonbrd.com/jobs/sales/sales-development-representative-bsale-santiago-8338",
+        "description": "Cargo full-time y presencial en Santiago. Atiende leads entrantes, los califica, responde consultas, coordina demos y registra pipeline/conversiones en CRM. La empresa indica más de 10000 pymes clientes y más de 110000 usuarios. No publica sueldo fijo; existe bonificación por desempeño.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Full-time; SDR junior",
+        "category": "Ventas B2B / SaaS / Inside Sales",
+        "requirements": ["Uno a dos años de experiencia en SDR, atención al cliente, inside sales o soporte técnico.", "Conocimiento de CRM y herramientas de automatización; experiencia en SaaS/digitalización deseable.", "Confirmar renta fija, variable y fecha de inicio."],
+        "responsibilities": ["Responder y calificar leads entrantes.", "Coordinar demostraciones para ejecutivos de venta.", "Registrar interacciones y métricas en el CRM."]
+      }
+    },
+    {
+      "platform": "Get on Board",
+      "verificationNote": "Ficha pública consultada el 2026-10-16; fecha publicada 2026-10-02, respuesta reciente y opción Apply activa.",
+      "job": {
+        "companyName": "BSALE",
+        "title": "Ejecutivo/a Venta Software",
+        "originalUrl": "https://www.getonbrd.com/empleos/comercial-ventas/talent-pool-ejecutivo-a-venta-software-bsale-santiago",
+        "description": "Cargo presencial full-time de venta de software a pymes, con prospección en terreno, gestión completa en CRM, referidos, upsell y cross-sell. La ficha indica dos años de experiencia en venta de intangibles (software deseable) y nivel Semi Senior; tratar como opción exigente. La renta no está publicada.",
+        "location": "Santiago, Chile",
+        "workplaceMode": "onsite",
+        "employmentType": "Full-time; Semi Senior",
+        "category": "Ventas B2B / Software SaaS",
+        "requirements": ["Formación en administración, ventas o similar.", "Al menos dos años de experiencia en venta de intangibles; software es deseable.", "Manejo de CRM y residencia en Santiago."],
+        "responsibilities": ["Prospectar pymes y llevar el proceso de ventas en CRM.", "Gestionar referidos, upsell y cross-sell."]
+      }
+    },
+    {
+      "platform": "Get on Board",
+      "verificationNote": "Ficha pública consultada el 2026-10-16, publicada ese día y con opción Apply activa. El anuncio tiene dos rangos salariales incompatibles; pedir aclaración.",
+      "job": {
+        "companyName": "Cloudspire by onCloud",
+        "title": "B2B Sales Rep (a to Z) — Cloudspire",
+        "originalUrl": "https://www.getonbrd.com/jobs/comercial-ventas/remote-b2b-sales-rep-a-to-z-cloudspire-cloudspire-by-oncloud-remote",
+        "description": "Cargo remoto full-time de ciclo completo: prospección, discovery, demos, propuestas, cierre y gestión inicial de cuentas para servicios VoIP/UCaaS, agentes de voz IA y servicios TI. Acepta postulantes de Latinoamérica y requiere inglés avanzado y solapamiento con horario laboral de EE. UU. El encabezado indica USD 1200–1800/mes, pero el cuerpo señala USD 1200–3000 de base más comisión; confirmar rango. El aviso describe un equipo pequeño.",
+        "location": "Remoto; acepta candidatos de Latinoamérica",
+        "workplaceMode": "remote",
+        "employmentType": "Full-time; ventas B2B",
+        "category": "Ventas B2B / Tecnología / IA",
+        "requirements": ["Inglés nativo o avanzado para llamadas diarias en EE. UU.", "Experiencia demostrable en prospección y cierre B2B.", "Disponibilidad para horario de EE. UU.", "Aclarar rango de sueldo y comisión antes de avanzar."],
+        "responsibilities": ["Prospectar por teléfono, correo y LinkedIn.", "Realizar discovery y demos tras la capacitación.", "Preparar propuestas, cerrar ventas y actualizar CRM."]
+      }
+    }
+  ]
+}

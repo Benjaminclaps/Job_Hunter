@@ -1,0 +1,44 @@
+{
+  "jobId": "a2641268-d6f8-4055-a932-48e7652537a6",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 92, "evidence": "Combina Customer Success, estrategia comercial, análisis de métricas, expansión de cuentas y automatización/IA; se alinea con el interés del perfil por Growth, operaciones comerciales y tecnología aplicada." },
+    "learningPotential": { "score": 94, "evidence": "Permite aprender gestión de cuentas SaaS, adopción, churn, upsell, métricas de uso, feedback de producto y automatización en una startup de IA." },
+    "experienceCompatibility": { "score": 82, "evidence": "La Ingeniería Comercial, las 18 cuentas cerradas, la experiencia con clientes, funnels, seguimiento comercial y trabajo con herramientas digitales son transferibles; la ficha no demuestra experiencia formal en Customer Success SaaS." },
+    "conditionsAndDuration": { "score": 67, "evidence": "La ubicación presencial en Las Condes es compatible con Santiago y es full-time, pero no se publica salario, fecha de inicio, jornada detallada ni proyección del cargo." },
+    "careerProjection": { "score": 93, "evidence": "La experiencia conecta ventas, producto, soporte, datos y revenue, y puede abrir una trayectoria hacia Customer Success estratégico, Account Management, Growth o RevOps en tecnología." }
+  },
+  "eligibility": "likely",
+  "professionalCategory": "Customer Success / SaaS B2B / Growth / Operaciones Comerciales",
+  "strengths": [
+    "Acepta Ingeniería Comercial y no exige una carrera informática",
+    "Une relación con clientes, negocio, métricas y expansión",
+    "Tiene exposición directa a IA, automatización y producto",
+    "La experiencia comercial y de gestión de clientes es transferible"
+  ],
+  "weaknesses": [
+    "El título Engineer puede sugerir una expectativa técnica mayor, aunque la ficha no exige programación",
+    "No se acredita experiencia formal en Customer Success o SaaS",
+    "Es presencial y no informa remuneración ni fecha de inicio"
+  ],
+  "missingRequirements": [
+    "Sueldo y estructura variable, si existe",
+    "Fecha de inicio y horario",
+    "Nivel de experiencia esperado en gestión de cuentas SaaS/B2B",
+    "Herramientas concretas de CRM, analítica y automatización",
+    "Si el cargo requiere implementación técnica o programación además de gestión de clientes"
+  ],
+  "learningPotential": "Aprenderías Customer Success orientado a adopción y revenue: gestión de cartera, métricas de uso, prevención de churn, expansión, feedback de producto y automatización con IA.",
+  "justification": "Es una coincidencia fuerte y distinta del SDR ya postulado en Vambe: ofrece una ruta más estratégica y transversal entre clientes, producto, datos y revenue. Recomiendo avanzar a revisión de condiciones, aclarando cuánto componente técnico tiene el título Engineer y cómo se mide el éxito del cargo.",
+  "recommendation": "apply",
+  "confidence": 0.86,
+  "unknowns": [
+    "Remuneración total",
+    "Fecha de incorporación",
+    "Profundidad técnica real del rol",
+    "Cartera de clientes y tamaño del equipo",
+    "Disponibilidad para comenzar desde el 20 de diciembre de 2026"
+  ]
+}

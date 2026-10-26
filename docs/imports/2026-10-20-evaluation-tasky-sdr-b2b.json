@@ -1,0 +1,41 @@
+{
+  "jobId": "41bc88cc-9c3f-4e07-9881-985f6db7476d",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 96, "evidence": "El rol es prospección B2B, llamadas, LinkedIn, calificación, reuniones, CRM y pipeline; coincide directamente con las más de 150 llamadas, cierres y experiencia comercial declarada." },
+    "learningPotential": { "score": 91, "evidence": "Tasky es una startup HR Tech y el cargo permite aprender ventas B2B, desarrollo comercial y operación de una plataforma con clientes de logística, retail y eventos." },
+    "experienceCompatibility": { "score": 93, "evidence": "La publicación exige prospección B2B y contacto en frío, áreas que sí aparecen en la experiencia del perfil; no exige un seniority alto ni liderazgo." },
+    "conditionsAndDuration": { "score": 91, "evidence": "Es híbrido en Las Condes, full-time, lunes a viernes y publica renta líquida de CLP 1.100.000; no informa fecha de inicio ni beneficios adicionales." },
+    "careerProjection": { "score": 93, "evidence": "Puede proyectar hacia BDR, Account Executive, Growth o Business Development dentro de una startup tecnológica en expansión." }
+  },
+  "eligibility": "likely",
+  "professionalCategory": "SDR / Ventas B2B / HR Tech / Desarrollo Comercial",
+  "strengths": [
+    "Match directo con prospección y ventas B2B",
+    "Renta líquida publicada y superior al mínimo de práctica",
+    "Startup tecnológica chilena con contacto directo con pipeline",
+    "Modalidad híbrida en Santiago"
+  ],
+  "weaknesses": [
+    "El rol es principalmente outbound y puede tener metas de volumen",
+    "La publicación no indica fecha de inicio",
+    "No se confirma el tamaño exacto del equipo"
+  ],
+  "missingRequirements": [
+    "Fecha de inicio",
+    "Metas mensuales de contactos y reuniones",
+    "Estructura de variable o bonos",
+    "Tamaño y composición del equipo comercial"
+  ],
+  "learningPotential": "Aprenderías prospección B2B en HR Tech, generación de pipeline, investigación de cuentas, CRM, reuniones calificadas y ventas de servicios tecnológicos a empresas.",
+  "justification": "Es una de las mejores coincidencias encontradas hasta ahora: el requisito principal es exactamente la experiencia que ya tienes, la renta está publicada y la empresa opera como startup tecnológica. La recomiendo como prioridad alta.",
+  "recommendation": "apply",
+  "confidence": 0.94,
+  "unknowns": [
+    "Fecha de incorporación",
+    "Metas y variable",
+    "Posibilidad de crecimiento a cierre o KAM"
+  ]
+}

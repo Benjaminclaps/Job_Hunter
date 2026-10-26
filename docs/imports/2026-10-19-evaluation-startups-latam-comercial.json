@@ -1,0 +1,42 @@
+{
+  "jobId": "af36d9b0-4b98-4428-b61d-4c458bf665c4",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 93, "evidence": "El rol es prospección B2B, CRM, propuestas, reuniones, venta y postventa para clientes y partners del ecosistema tecnológico; coincide directamente con la experiencia comercial y de marketing." },
+    "learningPotential": { "score": 94, "evidence": "El trabajo junto al Managing Director en un equipo pequeño expone a ventas consultivas, partnerships, eventos, founders, C-Level y ecosistema startup regional." },
+    "experienceCompatibility": { "score": 93, "evidence": "No exige experiencia formal y el perfil ya declara llamadas comerciales, cierres, generación de leads, funnels, clientes y campañas." },
+    "conditionsAndDuration": { "score": 74, "evidence": "Es full-time remoto, con oficina opcional en Santiago una vez por semana y remuneración publicada como concepto, pero no informa monto ni duración." },
+    "careerProjection": { "score": 91, "evidence": "Puede construir una trayectoria fuerte en ventas B2B, partnerships, community/ecosystem building y desarrollo comercial de tecnología." }
+  },
+  "eligibility": "likely",
+  "professionalCategory": "Práctica / Ventas B2B / Ecosistema Startup / Partnerships",
+  "strengths": [
+    "Encaje directo con ventas, prospección y CRM",
+    "Contacto con founders, gerentes e inversionistas",
+    "Trabajo remoto y equipo pequeño",
+    "Exposición regional a empresas tecnológicas y eventos"
+  ],
+  "weaknesses": [
+    "No es una startup de producto tecnológico puro, sino un actor del ecosistema",
+    "Monto de la remuneración no publicado",
+    "Incluye eventos y coordinación operativa además de ventas"
+  ],
+  "missingRequirements": [
+    "Monto de la remuneración",
+    "Duración de la práctica",
+    "Horario efectivo y carga de eventos",
+    "Posibilidad de continuidad después de la práctica"
+  ],
+  "learningPotential": "Aprenderías venta consultiva, partnerships, CRM, propuestas comerciales y networking con founders y tomadores de decisión de startups en Latam.",
+  "justification": "Es una de las opciones más realistas para obtener responsabilidad desde el primer día y moverte dentro del ecosistema startup. La recomiendo, siempre que la remuneración cumpla tu mínimo para prácticas y la carga de eventos sea compatible con tu disponibilidad.",
+  "recommendation": "apply",
+  "confidence": 0.91,
+  "unknowns": [
+    "Remuneración exacta",
+    "Duración",
+    "Fecha de inicio",
+    "Continuidad laboral posterior"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "jobId": "bb6c34b1-88fb-4403-a7dc-c5f9834d473f",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 94, "evidence": "El cargo combina contenido, Meta Ads/LinkedIn Ads, generación de leads, apoyo a ventas y marketing B2B de IA; coincide con la experiencia declarada en creatividades, campañas y funnels." },
+    "learningPotential": { "score": 95, "evidence": "El equipo de 14 personas ofrece autonomía y exposición directa a SaaS, IA conversacional, campañas, métricas de CPL y apoyo comercial." },
+    "experienceCompatibility": { "score": 76, "evidence": "La experiencia en Meta Ads, más de 70 creatividades, sitios/funnels y marketing es transferible, pero la publicación exige 2+ años, ejemplos de contenido con IA y Canva/Figma/Adobe, que no están completamente acreditados en el perfil." },
+    "conditionsAndDuration": { "score": 86, "evidence": "Es full-time híbrido en Santiago, con contrato a plazo fijo de tres meses y luego indefinido; no se publica remuneración." },
+    "careerProjection": { "score": 94, "evidence": "Es una oportunidad muy directa para crecer hacia Growth, Demand Generation, Marketing B2B o Revenue Operations en una startup tecnológica pequeña." }
+  },
+  "eligibility": "unclear",
+  "professionalCategory": "Marketing B2B / Growth / IA / SaaS",
+  "strengths": [
+    "Empresa tecnológica chilena con 14 personas",
+    "Responsabilidad real sobre contenido, campañas y leads",
+    "Conexión diaria con ventas y un producto B2B técnico",
+    "Modalidad híbrida y posibilidad de contrato indefinido"
+  ],
+  "weaknesses": [
+    "Pide 2+ años y el perfil actual declara aproximadamente 1 año",
+    "Solicita ejemplos de contenido generativo y herramientas de diseño que deben comprobarse",
+    "La renta no está publicada"
+  ],
+  "missingRequirements": [
+    "Confirmar si la experiencia del perfil puede presentarse como 2+ años acumulados",
+    "Portfolio o ejemplos de campañas y contenido con IA",
+    "Manejo real de Canva, Figma o Adobe",
+    "Sueldo líquido mensual"
+  ],
+  "learningPotential": "Aprenderías marketing B2B de tecnología, contenido con IA, campañas de demanda, medición de CPL y apoyo comercial dentro de un equipo de 14 personas.",
+  "justification": "Es probablemente la mejor empresa pequeña encontrada para tu perfil, pero no la marco como match seguro porque el requisito de 2+ años y el portfolio de contenido con IA son concretos. Vale la pena revisarla si puedes demostrar resultados y piezas, aunque tu experiencia formal sea cercana a un año.",
+  "recommendation": "review",
+  "confidence": 0.9,
+  "unknowns": [
+    "Cómo contabiliza Databot la experiencia de agencia y proyectos propios",
+    "Nivel esperado en diseño y video",
+    "Remuneración y fecha de inicio",
+    "Qué piezas de portfolio aceptan"
+  ]
+}

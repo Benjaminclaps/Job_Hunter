@@ -18,6 +18,41 @@ export type ScanResult = {
   error?: string;
 };
 
+export function isChileCompatible(job: { location?: string | null; workplaceMode?: string | null; title?: string | null }): boolean {
+  const loc = (job.location ?? "").toLocaleLowerCase("es");
+  const mode = (job.workplaceMode ?? "").toLocaleLowerCase("es");
+
+  const chileKeywords = [
+    "chile", "santiago", "las condes", "providencia", "vitacura",
+    "quilicura", "valparaíso", "valparaiso", "concepción", "concepcion",
+    "viña del mar", "vina del mar", "antofagasta", "temuco", "la serena", "rancagua"
+  ];
+  if (chileKeywords.some((k) => loc.includes(k))) return true;
+
+  if (mode === "onsite" || mode === "hybrid") return false;
+
+  const foreignOnlyKeywords = [
+    "us", "united states", "usa", "spain", "españa", "madrid", "barcelona",
+    "berlin", "germany", "alemania", "poland", "uk", "london", "brazil", "brasil",
+    "sao paulo", "são paulo", "mexico", "méxico", "cdmx", "bogota", "bogotá",
+    "colombia", "argentina", "buenos aires", "uruguay", "montevideo", "china",
+    "shanghai", "shenzhen", "singapore", "kenya", "nairobi", "south africa", "cape town"
+  ];
+
+  if (loc.includes("latam") || loc.includes("latin america") || loc.includes("global")) {
+    return true;
+  }
+
+  if (mode === "remote" || loc === "remote" || loc === "remoto") {
+    if (foreignOnlyKeywords.some((k) => loc.includes(k)) && !loc.includes("chile")) {
+      return false;
+    }
+    return true;
+  }
+
+  return false;
+}
+
 export function matchesScanQuery(job: NormalizedJob, queryValue: string): boolean {
   const query = queryValue.trim().toLocaleLowerCase("es");
   if (!query) return true;
@@ -52,9 +87,7 @@ export async function scanWatchlist(options: { company?: string; query?: string 
     try {
       const allJobs = await getConnector(company.atsProvider!).fetchJobs(company);
       const query = options.query?.trim();
-      const selected = query
-        ? allJobs.filter((job) => matchesScanQuery(job, query))
-        : allJobs;
+      const selected = allJobs.filter((job) => isChileCompatible(job) && (!query || matchesScanQuery(job, query)));
       const saved = upsertNormalizedJobs({
         companyId: company.id,
         sourceId: source.id,

@@ -1,0 +1,42 @@
+{
+  "jobId": "4a7839c1-dfdc-44a1-b435-0454663adb28",
+  "method": "codex_cli",
+  "evaluator": "Codex CLI",
+  "assessmentStatus": "scored",
+  "dimensions": {
+    "professionalAlignment": { "score": 88, "evidence": "Es una posición comercial full-cycle en SaaS, con prospección, demos, cierre, onboarding y CRM; coincide con la dirección de ventas B2B y tecnología del perfil." },
+    "learningPotential": { "score": 91, "evidence": "Sería el primer cargo de ventas y permitiría construir procesos directamente con el CEO y Marketing, con mucha autonomía y responsabilidad." },
+    "experienceCompatibility": { "score": 43, "evidence": "La experiencia en llamadas, ventas y cierres es transferible, pero la publicación exige 3–5 años de ventas B2B con cierre y experiencia presencial en terreno; el perfil declara aproximadamente 1 año." },
+    "conditionsAndDuration": { "score": 80, "evidence": "Publica sueldo fijo según experiencia, bonos, comisiones, beneficios y capacitación; el trabajo exige terreno en Santiago y viajes a la oficina de Concón." },
+    "careerProjection": { "score": 90, "evidence": "Construir un área comercial desde cero en un SaaS sería una experiencia potente para Growth, Sales Operations o Business Development." }
+  },
+  "eligibility": "unclear",
+  "professionalCategory": "Ventas B2B / SaaS / Desarrollo Comercial",
+  "strengths": [
+    "Primer vendedor de una plataforma SaaS",
+    "Contacto directo con CEO y Marketing",
+    "Sueldo, bonos y comisiones descritos",
+    "Mucho espacio para aprender y dejar procesos construidos"
+  ],
+  "weaknesses": [
+    "La brecha de experiencia de 1 año versus 3–5 años es importante",
+    "Exige ventas en terreno y prospección puerta a puerta",
+    "La oficina base está en Concón y la inducción requiere viajar"
+  ],
+  "missingRequirements": [
+    "Si aceptan perfiles con menor experiencia pero buenos cierres",
+    "Sueldo fijo concreto",
+    "Frecuencia de viajes a Concón después de la capacitación",
+    "Territorio y metas comerciales"
+  ],
+  "learningPotential": "Aprenderías a crear un proceso comercial SaaS desde cero, hacer demos, cerrar, documentar CRM y acompañar activación de clientes.",
+  "justification": "Es una empresa chica y el desafío es muy atractivo, pero no la presento como match seguro: el requisito de 3–5 años y experiencia de terreno contradice tu experiencia formal aproximada. La dejaría como apuesta si quieres intentar un cargo más agresivo y puedes demostrar cierres reales.",
+  "recommendation": "consider",
+  "confidence": 0.93,
+  "unknowns": [
+    "Flexibilidad real frente al requisito de experiencia",
+    "Renta fija",
+    "Metas y estructura de comisiones",
+    "Carga de terreno y viajes"
+  ]
+}

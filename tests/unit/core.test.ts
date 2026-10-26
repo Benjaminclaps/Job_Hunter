@@ -12,6 +12,8 @@ const jobService = await import("@/services/jobs");
 const evaluationService = await import("@/services/evaluations");
 const dashboardService = await import("@/services/dashboard");
 const settingsService = await import("@/services/settings");
+const applicationService = await import("@/services/applications");
+const feedbackService = await import("@/services/feedback");
 
 describe("núcleo local", () => {
   let jobId: string;
@@ -100,5 +102,22 @@ describe("núcleo local", () => {
       weights: { professionalAlignment: 40, learningPotential: 40, experienceCompatibility: 40, conditionsAndDuration: 15, careerProjection: 10 },
       thresholds: { excellent: 90, veryInteresting: 75, consider: 60 },
     })).toThrow(/pesos deben sumar 100/i);
+  });
+
+  it("marca la oferta como postulada y persiste su etapa", () => {
+    const application = applicationService.saveApplication({ jobId, stage: "applied", notes: "" });
+    const detail = dashboardService.getJobDetail(jobId);
+    expect(application?.stage).toBe("applied");
+    expect(application?.appliedAt).toBeTruthy();
+    expect(detail?.job.status).toBe("applied");
+    expect(detail?.application?.stage).toBe("applied");
+  });
+
+  it("conserva motivos específicos para enlaces caídos y ofertas vencidas", () => {
+    feedbackService.saveFeedback(jobId, { sentiment: "not_interested", reasonCode: "website_unavailable" });
+    feedbackService.saveFeedback(jobId, { sentiment: "not_interested", reasonCode: "expired" });
+    const context = JSON.stringify(feedbackService.getFeedbackLearningContext().rejectedExamples);
+    expect(context).toContain("website_unavailable");
+    expect(context).toContain("expired");
   });
 });
